@@ -1,2 +1,1 @@
-# datadabblers
-This repository will contain project details of Fabric AI Hackathon Submission
+# Project X : Using Microsoft Fabric and AI
