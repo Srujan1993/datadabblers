@@ -36,7 +36,35 @@ To be entered
 
 ### Ratings and Reviews
 
-To be entered 
+#### **Source Data Creation**
+
+Social reviews generated through OpenAI from Twitter (for simulation purposes) are saved as CSV files in an Amazon S3 bucket.
+This setup is intended to mimic a real-world environment where social review data from various sources (Twitter, Facebook, Instagram, etc.) is stored in S3 for easy access and management.
+
+#### **Data Transfer**
+
+The social review data is then transferred to the Lakehouse folder as a shortcut, enabling quick and efficient access to data within the Fabric environment without replicating data storage.
+
+#### **Prerequisites for Fabric Lakehouse Connection**
+
+To establish a connection (or shortcut) between the Amazon S3 bucket and Fabric Lakehouse, a few configurations are required:
+
+##### Amazon S3 Permissions:
+
+Set up bucket policies to grant Fabric Lakehouse permission to access the S3 bucket. This includes:
+Enabling read access for the Fabric Lakehouse service.
+Configuring the IAM access policy allows read-only access to the necessary S3 bucket resources.
+Create and configure access keys for authorised access. Ensure the access keys are stored securely and have the appropriate permissions to access the specified S3 bucket.
+
+##### Fabric Lakehouse Shortcut Setup:
+
+In the Fabric Lakehouse environment, use the shortcut feature to create a connection to the S3 bucket where the social review data is stored.
+Ensure that the connection setup uses the access keys configured on the S3 bucket, and validate the connection by testing access to the sample social review data files.
+Verify that the shortcut connection enables data reading and ingestion workflows within the Lakehouse.
+
+##### Data Validation:
+
+After setting up the shortcut, validate that data from the S3 bucket is accessible in Fabric Lakehouse. Check for any data format inconsistencies and ensure the data pipeline from S3 to Fabric operates as expected.
 
 
 
