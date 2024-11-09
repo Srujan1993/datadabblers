@@ -49,14 +49,14 @@ The social review data is then transferred to the Lakehouse folder as a shortcut
 
 To establish a connection (or shortcut) between the Amazon S3 bucket and Fabric Lakehouse, a few configurations are required:
 
-##### Amazon S3 Permissions:
+##### a. Amazon S3 Permissions:
 
 Set up bucket policies to grant Fabric Lakehouse permission to access the S3 bucket. This includes:
 Enabling read access for the Fabric Lakehouse service.
 Configuring the IAM access policy allows read-only access to the necessary S3 bucket resources.
 Create and configure access keys for authorised access. Ensure the access keys are stored securely and have the appropriate permissions to access the specified S3 bucket.
 
-##### Fabric Lakehouse Shortcut Setup:
+##### b. Fabric Lakehouse Shortcut Setup:
 
 In the Fabric Lakehouse environment, use the shortcut feature to create a connection to the S3 bucket where the social review data is stored.
 Ensure that the connection setup uses the access keys configured on the S3 bucket, and validate the connection by testing access to the sample social review data files.
