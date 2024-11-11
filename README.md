@@ -25,15 +25,15 @@ Video file to be uploaded
 
 ### Hubspot CRM Setup
 
-To be entered
+[Steps to set up HubSpot CRM](https://github.com/Srujan1993/datadabblers/blob/2b7181f17f945afe025ad5fb6e356d1235d8ede5/MicrosoftFabric/DataIngestion/ETL/HubSpot%20CRM%20Setup.md)
 
 ### ERP Data Setup
 
-[Steps to setup ERP Data in Azure SQL Database](https://github.com/Srujan1993/datadabblers/blob/4b4b2e4f525276942aa46d3063e3f6a73d23f551/MicrosoftFabric/DataIngestion/Mirroring/ERP%20Data%20Setup%20in%20Azure%20SQL%20Database.md)
+[Steps to set up ERP Data in Azure SQL Database](https://github.com/Srujan1993/datadabblers/blob/4b4b2e4f525276942aa46d3063e3f6a73d23f551/MicrosoftFabric/DataIngestion/Mirroring/ERP%20Data%20Setup%20in%20Azure%20SQL%20Database.md)
 
 ### Ratings and Reviews
 
-[Steps to setup social review in AWS S3](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/reviews_data_setup_aws_s3.md)
+[Steps to set up social review in AWS S3](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/reviews_data_setup_aws_s3.md)
 
 
 ## Detailed Project Setup in Microsoft Fabric
