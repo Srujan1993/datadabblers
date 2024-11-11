@@ -42,13 +42,14 @@
    
    - In the context of our specific use case, we focused our attention on leveraging the tables pertaining to Products and Sales from the loaded Adventure Works data. 
    - These particular datasets were chosen for their relevance to our project objectives and their ability to provide valuable insights into product and sales performance metrics.
-    - Production.Product
-    - Production.ProductCategory
-    - Production.ProductModel
-    - Production.ProductSubCategory
-    - Sales.Customer
-    - Sales.SalesOrderaHeader
-    - Sales.SalesOrderHeaderSalesReason
-    - Sales.SalesReason
-    - Sales.SalesTerritory
-    - Sales.SpecialOffer
+
+      - Production.Product
+      - Production.ProductCategory
+      - Production.ProductModel
+      - Production.ProductSubCategory
+      - Sales.Customer
+      - Sales.SalesOrderaHeader
+      - Sales.SalesOrderHeaderSalesReason
+      - Sales.SalesReason
+      - Sales.SalesTerritory
+      - Sales.SpecialOffer
