@@ -19,15 +19,23 @@ The social review data is transferred to the Lakehouse folder as a shortcut, ena
 
 ### Configure Access Permissions and Policies for S3 Bucket
 
-To allow Microsoft Fabric to access data from Amazon S3, you’ll need to set specific access permissions and policies on your S3 bucket. Follow these steps:
+To allow Microsoft Fabric to access data from Amazon S3, set up specific access permissions and policies for secure data access. Follow these steps:
 
-- **Create Access Keys in IAM**: First, go to AWS Identity and Access Management (IAM) and create an **Access Key ID** and **Secret Access Key**. These keys will enable secure access from Microsoft Fabric.
+- **Create a Dedicated IAM User**: Set up a new IAM user specifically for the Fabric connection. This user will hold the access keys and policies for this connection only, enhancing security and manageability.
 
-- **Set S3 Read-Only Policy**: Apply a read-only policy to your S3 bucket. This will grant Microsoft Fabric permission to access data without altering it.
-- Copy the **Access Key ID**, **Secret Access Key**, and the **folder URL**. If the entire folder is needed, copy the folder link only (remove any specific file from the URL, so it points to the folder level only).
-- Reference images and detailed setup steps are available.
+![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/01_create_user_in_s3.png)
 
+- **Generate Access Keys in IAM**: In AWS Identity and Access Management (IAM), create an **Access Key ID** and **Secret Access Key** for the new user. These keys provide the necessary credentials for secure access from Microsoft Fabric.
 
+![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/02_create_access_key.png)
+
+- **Assign an S3 Read-Only Policy**: Apply a read-only policy to this user for the S3 bucket. This policy ensures Microsoft Fabric has permission to access the data without modifying it.
+![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/03_set_up_policy.png)
+
+- **Copy Connection Details**: Retrieve and securely store the **Access Key ID**, **Secret Access Key**, and **folder URL** for use in Microsoft Fabric. If you need access to the entire folder, copy the folder URL link only, without specifying any individual files (remove any file details from the URL).
+![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/04a_copy_Url_for_fabric_shortcut.png)
+![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/04b_copy_key_and_secret.png)
+![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/05_short_cut_setting_in_Fabric.png)
 
 ---
 
