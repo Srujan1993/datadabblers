@@ -10,7 +10,8 @@ About the use case
 
 ## High Level Architecture
 
-(https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/Architecture/HighLevelArchitectureDiagram.drawio.svg)
+![image](https://github.com/user-attachments/assets/cc63fc54-11d2-42fd-b611-6b77ee1db854)
+
 
 
 ## Components used in the Project
