@@ -21,7 +21,7 @@
  
   - Once the database is created , it would be like below in the azure subsccription
  
-  - Add image 01
+  - ![image](https://github.com/Srujan1993/datadabblers/blob/4b4b2e4f525276942aa46d3063e3f6a73d23f551/MicrosoftFabric/DataIngestion/Mirroring/assets/01_Created_Database.png)
  
   - Free tier Database is allowed one per subscription,so we are able to configure the database in free tier as mentioned in the screenshot . However , we have consumed the 100000vCore seconds limit.
  
@@ -36,7 +36,7 @@
    - [sql-docs/docs/samples/adventureworks-install-configure.md at live · MicrosoftDocs/sql-docs · GitHub](https://github.com/MicrosoftDocs/sql-docs/blob/live/docs/samples/adventureworks-install-configure.md)
    - This github link provides comprehensive details on how to install the adventure works database tables into the azure sql database.
    - A screenshot of adventure works tables loaded into the azure sql database
-   - Add image 02
+   - ![image](https://github.com/Srujan1993/datadabblers/blob/ccc7d39a7c487b9cd0c4f9a18ed7e9fe6446db88/MicrosoftFabric/DataIngestion/Mirroring/assets/02-Database_with_tables.png)
      
    ### **Tables to be used in the ERP Database for our use case**
    
