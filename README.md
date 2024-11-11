@@ -32,7 +32,34 @@ To be entered
 - To populate our ERP system with realistic and comprehensive data, we utilized the Adventure Works Sample Database, a well-known and feature-rich dataset provided by Microsoft.
 - This sample database offers a wide array of business scenarios and data structures, making it an ideal choice for our project's requirements.
 - Please follow the detailed instructions provided below to replicate our setup and ensure a smooth implementation of the Azure PaaS SQL Database with the Adventure Works Sample Database as your ERP foundation.
-- will come back to provide the steps for replicating the database
+
+    ### **Steps to setup ERP Data in Azure SQL Database**
+
+    ### **Prerequisites**
+    - An Azure SQL Database needs to be created in a valid Azure Subscription as we are using Azure SQL Database in our Scenario. 
+    - Install SQL Server Management Studio or Azure Data Studio
+
+    ### **Steps to Configure Adventure Works Dataset**
+    - Use the details mentioned in the github link mentioned below to restore Adventure works data into your own Azure SQL Database
+    - [sql-docs/docs/samples/adventureworks-install-configure.md at live · MicrosoftDocs/sql-docs · GitHub](https://github.com/MicrosoftDocs/sql-docs/blob/live/docs/samples/adventureworks-install-configure.md)
+
+    ### **Our Azure SQL Database Setup**
+    - We utilized an Azure pay-as-you-go subscription within our personal Azure Account for the purpose of establishing and configuring the necessary Azure Components.
+    - Under the Subscription, Azure PaaS SQL Database named "freedemodb" was created. This database was subsequently populated with the comprehensive Adventure Works dataset.
+    - In the context of our specific use case, we focused our attention on leveraging the tables pertaining to Products and Sales from the loaded Adventure Works data. 
+    - These particular datasets were chosen for their relevance to our project objectives and their ability to provide valuable insights into product and sales performance metrics.
+
+    ### **Tables used in the ERP Database for our use case**
+    - Production.Product
+    - Production.ProductCategory
+    - Production.ProductModel
+    - Production.ProductSubCategory
+    - Sales.Customer
+    - Sales.SalesOrderaHeader
+    - Sales.SalesOrderHeaderSalesReason
+    - Sales.SalesReason
+    - Sales.SalesTerritory
+    - Sales.SpecialOffer
 
 ### Ratings and Reviews
 
