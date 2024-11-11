@@ -1,7 +1,13 @@
 ### Ratings and Reviews
+
+Social reviews generated through OpenAI from Twitter (for simulation purposes) are saved as CSV files in an Amazon S3 bucket.
+This setup is intended to mimic a real-world environment where social review data from various sources (Twitter, Facebook, Instagram, etc.) is stored in S3 for easy access and management.
+
 The social review data is transferred to the Lakehouse folder as a shortcut, enabling quick and efficient access to data within the Fabric environment without duplicating storage.
 
 ---
+
+
 
 ### Set Up Amazon S3 Account and S3 Bucket
 
