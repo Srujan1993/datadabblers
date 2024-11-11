@@ -30,12 +30,16 @@ To allow Microsoft Fabric to access data from Amazon S3, set up specific access 
 ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/02_create_access_key.png)
 
 - **Assign an S3 Read-Only Policy**: Apply a read-only policy to this user for the S3 bucket. This policy ensures Microsoft Fabric has permission to access the data without modifying it.
+
 ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/03_set_up_policy.png)
 
 - **Copy Connection Details**: Retrieve and securely store the **Access Key ID**, **Secret Access Key**, and **folder URL** for use in Microsoft Fabric. If you need access to the entire folder, copy the folder URL link only, without specifying any individual files (remove any file details from the URL).
+
 ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/04a_copy_Url_for_fabric_shortcut.png)
+
 ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/04b_copy_key_and_secret.png)
-![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/05_short_cut_setting_in_Fabric.png)
+
+
 
 ---
 
@@ -44,7 +48,7 @@ To allow Microsoft Fabric to access data from Amazon S3, set up specific access 
 - In Microsoft Fabric, set up a data shortcut pointing to your Amazon S3 bucket. This shortcut will serve as a persistent connection for fetching data directly from Amazon S3.
 - When creating this shortcut, enter the **Url**, **Access Key ID** and **Secret Access Key** generated from AWS, along with the specific **S3 bucket name** and **path**.
 
-
+![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/05_short_cut_setting_in_Fabric.png)
 
 ---
 
