@@ -46,9 +46,17 @@ To allow Microsoft Fabric to access data from Amazon S3, set up specific access 
 ### Create a Shortcut to the S3 Bucket in Microsoft Fabric
 
 - In Microsoft Fabric, set up a data shortcut pointing to your Amazon S3 bucket. This shortcut will serve as a persistent connection for fetching data directly from Amazon S3.
+
+- To create the shortcut, click on the **...** on the right-hand side of the folder, select **Create Shortcut**, and choose **S3 Bucket**.
+
+![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/05a_create_shortcut.png)
+
+![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/05b_select_s3_bucket_shortcut.png)
+
+
 - When creating this shortcut, enter the **Url**, **Access Key ID** and **Secret Access Key** generated from AWS, along with the specific **S3 bucket name** and **path**.
 
-![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/05_short_cut_setting_in_Fabric.png)
+![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/05c_short_cut_setting_in_Fabric.png)
 
 ---
 
