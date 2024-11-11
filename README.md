@@ -67,22 +67,87 @@ After setting up the shortcut, validate that data from the S3 bucket is accessib
 
 # Detailed Project Setup in Microsoft Fabric
 
-1. Create a Fabric enabled workspace in [app.powerbi.com](http://app.powerbi.com)
+   1. Create a Fabric enabled workspace in [app.powerbi.com](http://app.powerbi.com)
 
-2. Create a Fabric Lakehouse within the Fabric Workspace. We will be bringing the data into Lakehouse to perform insights using Medallion Architecture. A lakehouse when created will have a semantic model and SQL analytics endpoint. We have named our Lakehouse as AdventureWorks_Lakehouse
+   2. Create a Fabric Lakehouse within the Fabric Workspace. We will be bringing the data into Lakehouse to perform insights using Medallion Architecture. A lakehouse when created will have a semantic model and SQL
+      analytics endpoint. We have named our Lakehouse as AdventureWorks_Lakehouse
 
-3. As part of our use case, we need to bring the data from Hubspot CRM, Azure SQL Database, and an AWS S3 holding the social media reviews file
+   4. As part of our use case, we need to bring the data from Hubspot CRM, Azure SQL Database, and an AWS S3 holding the social media reviews file
 
-## Data Ingestion
 
-1. Loading Hub Spot CRM data into Fabric:
-   - We used an ETL pipeline to import customers and companies data from CRM into the Fabric.
-   - To keep it simple, we are always deleting the companies and customers csv file and import the latest companies and customers data from Hubspot CRM using
-   - An API connection is created to the Hubspot CRM from the pipeline
-   - Copy activity is used within the ETL pipeline to copy files from Hubspot CRM to Lakehouse in our Fabric Workspace
-   - Once the pipeline runs successfully, files are pushed successfully to Lakehouse Files explorer
+   ## Data Ingestion - HubSpot CRM to Microsoft Fabric
 
-2. Load ERP Data from SQL Database into Fabric
+   In this project, we used HubSpot to store Companies and Contacts from the Adventure Works database in a separate system, simulating a typical enterprise setup.
+
+   We will be ingesting data from HubSpot via API in a ETL Pipeline, storing the data as a CSV file in the LakeHouse. 
+
+   ![image](https://github.com/Srujan1993/datadabblers/blob/902760307681bb2bb05c7c2e39c813f9728e8f7c/MicrosoftFabric/DataIngestion/ETL/assets/Hubspot%20CRM%20Import%20Pipeline.png) 
+
+   Steps to create and configure an ETL Pipeline for Companies and Customers
+   - Create new Data Pipeline
+	   - Within your Fabric workspace, click + New item and select Data pipeline
+   - Create Delete data activities
+	   1.	Create a Delete data block from the Activities tab, Move and transform, Delete data
+	   2.	Name it “Delete Companies CSV” 
+	   3.	Set the connection to your LakeHouse
+	   4.	Set it as File path with path: Files / HubspotCrm / Companies.csv
+	   5.	Disable Logging setting
+	   6.	Repeat steps 1-6 for Contacts, substituting the name with “Delete Customers CSV” and the path: Files / HubspotCrm / Customers.csv
+   - Create Copy data activity for Companies
+	   1.	Next create a Copy data activity and call it “CopyHubSpotCrmCompanies”
+	   2.	Under Source tab, create a new connection and select REST (this creates the base URL connection for all HubSpot API calls)
+		   - Add the Base URL: https://api.hubapi.com/crm/v3
+		   - Leave Token Audience Uri blank
+		   - Create new connection
+		   - Name the Connection:  HubspotCrmApi
+		   - Data gateway: none
+		   - Authentication kind: Anonymous
+	   3.	Add the relative URL (the properties selects the specific fields you want the API to return): objects/companies?properties=erpstoreid,domain,name,address,address2,city,state,country,zip
+	   4.	Request method: GET
+	   5.	Additional headers:
+		   - Name: Authorization
+		   - Value: Bearer [Hubspot access token you saved earlier]
+	   6.	Pagination rules:
+		   - Name: RFC5988 / Value: False
+		   - Name: AbsoluteURL [Blank] / Value: Body [paging.next.link]
+	   7.	Under Destination Tab
+		   - Connection: Select your lakehouse
+		   - Root folder: Files
+		   - Path: HubspotCrm / Companies.csv
+		   - File format: DelimitedText
+	   8.	Use the image below to configure Mapping
+ 
+      ![image](https://github.com/Srujan1993/datadabblers/blob/902760307681bb2bb05c7c2e39c813f9728e8f7c/MicrosoftFabric/DataIngestion/ETL/assets/Hubspot%20Ingestion%20Pipeline%20Company%20Mapping.png)
+
+   - Create Copy data activity for Customers
+	   1.	Next create a Copy data activity and call it “CopyHubSpotCrmCustomers”
+      2.	Under Source tab, select the connection you created for the companies Copy data activity as they share the same base URL.
+	   3.	Add the relative URL (the properties selects the specific fields you want the API to return): objects/contacts? 
+            properties=erpstoreid,erppersonid,Company,jobtitle,firstname,lastname,email,phone,contact_type
+	   4.	Request method: GET
+	   5.	Additional headers:
+		   - Name: Authorization
+		   - Value: Bearer [Hubspot access token you saved earlier]
+      6.	Pagination rules:
+		   - Name: RFC5988 / Value: False
+		   - Name: AbsoluteURL [Blank] / Value: Body [paging.next.link]
+	   7.	Under Destination Tab
+		   - Connection: Select your lakehouse
+		   - Root folder: Files
+		      - Path: HubspotCrm / Customers.csv
+		      - File format: DelimitedText
+	   8.	Use the image below to configure Mapping
+        
+     ![image](https://github.com/Srujan1993/datadabblers/blob/902760307681bb2bb05c7c2e39c813f9728e8f7c/MicrosoftFabric/DataIngestion/ETL/assets/Hubspot%20Ingestion%20Pipeline%20Customer%20Mapping.png)
+
+      - We used an ETL pipeline to import customers and companies data from CRM into the Fabric.
+      - To keep it simple, we are always deleting the companies and customers csv file and import the latest companies and customers data from Hubspot CRM using
+      - An API connection is created to the Hubspot CRM from the pipeline
+      - Copy activity is used within the ETL pipeline to copy files from Hubspot CRM to Lakehouse in our Fabric Workspace
+      - Once the pipeline runs successfully, files are pushed successfully to Lakehouse Files explorer
+
+## Data Ingestion - Mirroring ERP Data to Microsoft Fabric
+
    - We use mirroring feature in fabric to load ERP data from Azure SQL Database into Microsoft Fabric One Lake showcasing the advantage of avoiding complex ETL for bringing the data into Fabric
    - Mirroring in Fabric is a fully managed service, so you don't have to worry about hosting, maintaining, or managing replication of the mirrored connection.
    - Flexibility of choosing whether to replicate an entire database or individual tables and Mirroring will automatically keep your data in sync. Once set up, data will continuously replicate into the OneLake for analytics consumption.
