@@ -209,7 +209,4 @@ The final product of this project is a PowerBI report that presents the AI-gener
 - AI-suggested actions, which identify top priorities for improving sales based on the AI-generated insights.
 - A visual representation of the underlying sales data supporting the AI insights.
 
-![image]()
-
-
-
+![image](https://github.com/Srujan1993/datadabblers/blob/6d4885c7ff9494f8885e5aed97807253a020c3bf/MicrosoftFabric/DataPresentation/PowerBIReporting/assets/PowerBI%20Report%20-%20Road-250.png)
