@@ -31,7 +31,7 @@ To be entered
 
 ### ERP Data Setup
 
-To be entered
+[Steps to setup ERP Data in Azure SQL Database](https://github.com/Srujan1993/datadabblers/blob/4b4b2e4f525276942aa46d3063e3f6a73d23f551/MicrosoftFabric/DataIngestion/Mirroring/ERP%20Data%20Setup%20in%20Azure%20SQL%20Database.md)
 
 ### Ratings and Reviews
 
