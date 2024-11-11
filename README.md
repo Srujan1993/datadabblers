@@ -36,7 +36,7 @@ Video file to be uploaded
 [Steps to set up social review in AWS S3](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/reviews_data_setup_aws_s3.md)
 
 
-## Detailed Project Setup in Microsoft Fabric
+# Detailed Project Setup in Microsoft Fabric
 
 1. Create a Fabric enabled workspace in [app.powerbi.com](http://app.powerbi.com)
 
@@ -45,7 +45,7 @@ analytics endpoint. We have named our Lakehouse as AdventureWorks_Lakehouse
 
 3. As part of our use case, we need to bring the data from Hubspot CRM, Azure SQL Database, and an AWS S3 holding the social media reviews file
 
-### Data Ingestion - HubSpot CRM to Microsoft Fabric
+## Data Ingestion - HubSpot CRM to Microsoft Fabric
 
 In this project, we used HubSpot to store Companies and Contacts from the Adventure Works database in a separate system, simulating a typical enterprise setup.
 
@@ -116,14 +116,14 @@ Steps to create and configure an ETL Pipeline for Companies and Customers
 - Copy activity is used within the ETL pipeline to copy files from Hubspot CRM to Lakehouse in our Fabric Workspace
 - Once the pipeline runs successfully, files are pushed successfully to Lakehouse Files explorer
 
-### Data Ingestion - Mirroring ERP Data to Microsoft Fabric
+## Data Ingestion - Mirroring ERP Data to Microsoft Fabric
 
    - We use mirroring feature in fabric to load ERP data from Azure SQL Database into Microsoft Fabric One Lake showcasing the advantage of avoiding complex ETL for bringing the data into Fabric
    - Mirroring in Fabric is a fully managed service, so you don't have to worry about hosting, maintaining, or managing replication of the mirrored connection.
    - Flexibility of choosing whether to replicate an entire database or individual tables and Mirroring will automatically keep your data in sync. Once set up, data will continuously replicate into the OneLake for analytics consumption.
    - Mirroring in Fabric provides an easy experience to speed the time-to-value for insights and decisions
 
-#### Steps to configure mirroring in MS Fabric
+### Steps to configure mirroring in MS Fabric
 
 - Go to your Fabric Enabled Workspace and Click on New Item
 - Search for Mirrored Azure SQL Database Option in New Item Window
@@ -200,8 +200,16 @@ A Semantic Model is used to build a business layer with standardised metrics and
 
 ![image](https://github.com/Srujan1993/datadabblers/blob/35af8301abd555faae22dd5256efe0087bdf8810/MicrosoftFabric/DataPresentation/PowerBIReporting/assets/Manage%20Semantic%20Model%20Relationships.png)
 
+## PowerBI Report
 
+The final product of this project is a PowerBI report that presents the AI-generated content and the underlying data in a clear and concise manner. The main components of the report include:
 
+- An AI-generated summary of sales data, which compares performance across different months and years, highlighting trends and anomalies.
+- AI-driven insights that explore the factors influencing sales.
+- AI-suggested actions, which identify top priorities for improving sales based on the AI-generated insights.
+- A visual representation of the underlying sales data supporting the AI insights.
+
+![image]()
 
 
 
