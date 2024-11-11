@@ -1,5 +1,5 @@
 
-# Project FabricIQ : Data Driven Intelligence with Microsoft Fabric and Azure Open AI
+## Project FabricIQ : Data Driven Intelligence with Microsoft Fabric and Azure Open AI
 
 About the project 
 
