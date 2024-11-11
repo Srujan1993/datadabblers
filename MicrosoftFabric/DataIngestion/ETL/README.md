@@ -13,7 +13,7 @@ Once you have created an HubSpot account you will need to configure it to be abl
 
 The import file HubSpot_Company_Import.csv in this repository is an extract of Stores from the Adventure Works database with all the required columns to successfully import into HubSpot and the IDs to join back to the ERP tables after importing into Fabric.
 
-The minimum required fields to add a company to HubSpot is a Domain Name, Company Name and the Company Owner. You will need to add the email address of the Company Owner in the CompanyOwner column. If you have just created an HubSpot account, you will most likely only have one user that can be the Company Owner which will be the email address you used to create the account with.
+The minimum required fields to add a company to HubSpot is a Domain Name, Company Name and the Company Owner. You will need to add the name of the Company Owner in the CompanyOwner column. If you have just created an HubSpot account, you will most likely only have one user that can be the Company Owner which will be the name you used to create the account with.
 
 Now the import file is complete you will need to configure HubSpot to include the extra fields we have added. To do this you will need to follow these steps:
 
@@ -44,7 +44,7 @@ You are now ready to import the list of Companies from the CSV file. Follow the 
 
 The import file HubSpot_Contacts_Import.csv in this repository is an extract of Customers from the Adventure Works database with all the required columns to successfully import into HubSpot and the IDs to join back to the ERP tables after importing into Fabric.
 
-You will need to add the email address of the Contact Owner in the ContactOwner column.
+You will need to add the name of the Contact Owner in the ContactOwner column.
 
 Now the import file is complete you will need to configure HubSpot to include the extra fields we have added. To do this you will need to follow these steps:
 
