@@ -10,10 +10,7 @@ About the use case
 
 ## High Level Architecture
 
-![image](https://github.com/user-attachments/assets/8ce4fd28-bb91-4409-86b8-9194420648dc)
-
-
-
+![image](https://github.com/user-attachments/assets/ad8dd1c2-f2bd-4146-af4c-e244ef390d81)
 
 ## Components used in the Project
 
