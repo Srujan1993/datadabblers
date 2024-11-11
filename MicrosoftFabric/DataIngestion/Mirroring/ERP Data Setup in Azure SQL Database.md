@@ -6,7 +6,7 @@
  - An Azure SQL Database needs to be created in a valid Azure Subscription as we are using Azure SQL Database in our Scenario. 
  - Install SQL Server Management Studio or Azure Data Studio on your local machine
 
-### **Steps to create an Azure SQL Database
+### **Steps to create an Azure SQL Database**
  
  - Use this link : https://learn.microsoft.com/en-us/azure/azure-sql/database/free-offer?view=azuresql to follow the stpes and create an azure sql database in your azure subscription
 
