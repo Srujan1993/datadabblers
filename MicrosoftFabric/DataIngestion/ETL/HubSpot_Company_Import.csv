@@ -1,0 +1,703 @@
+ErpStoreId,DomainName,CompanyName,CompanyOwner,StreetAddress1,StreetAddress2,City,StateRegionName,CountryRegionName,PostalCode
+0,www.adventureworks.fake.com,Adventure Works,Company Owner,1 Adventure Drive,,Redmond,Washington,United States,98052
+292,www.nextdoorbikestore.fake.com,Next-Door Bike Store,Company Owner,Mall Of Memphis,,Memphis,Tennessee,United States,38103
+294,www.professionalsalesandservice.fake.com,Professional Sales and Service,Company Owner,57251 Serene Blvd,,Van Nuys,California,United States,91411
+296,www.riderscompany.fake.com,Riders Company,Company Owner,Tanger Factory,,Branch,Minnesota,United States,55056
+298,www.thebikemechanics.fake.com,The Bike Mechanics,Company Owner,Johnny Appleseed Shop.center,,Mansfield,Ohio,United States,44903
+300,www.nationwidesupply.fake.com,Nationwide Supply,Company Owner,4250 Concord Road,,Rhodes,New South Wales,Australia,2138
+302,www.areabikeaccessories.fake.com,Area Bike Accessories,Company Owner,6900 Sisk Road,,Modesto,California,United States,95354
+304,www.bicycleaccessoriesandkits.fake.com,Bicycle Accessories and Kits,Company Owner,Lewiston Mall,,Lewiston,Idaho,United States,83501
+306,www.clampsbracketsco.fake.com,Clamps & Brackets Co.,Company Owner,Leesburg Premium Outlet Centre,,Leesburg,Virginia,United States,20176
+308,www.valleybicyclespecialists.fake.com,Valley Bicycle Specialists,Company Owner,Blue Ridge Mall,,Kansas City,Missouri,United States,64106
+310,www.newbikescompany.fake.com,New Bikes Company,Company Owner,Hilton Head Factory Outlets No. 25,,Bluffton,South Carolina,United States,29910
+312,www.vinylandplasticgoodscorporation.fake.com,Vinyl and Plastic Goods Corporation,Company Owner,No. 25800-130 King Street West,,Toronto,Ontario,Canada,M4B 1V5
+314,www.topofthelinebikes.fake.com,Top of the Line Bikes,Company Owner,Knaackstr 7,,Paderborn,Hamburg,Germany,33041
+316,www.funtoysandbikes.fake.com,Fun Toys and Bikes,Company Owner,6500 East Grant Road,,Tucson,Arizona,United States,85701
+318,www.greatbikes.fake.com,Great Bikes ,Company Owner,Eastridge Mall,,Casper,Wyoming,United States,82601
+320,www.metropolitansalesandrental.fake.com,Metropolitan Sales and Rental,Company Owner,Granite State Marketplace,,Hooksett,New Hampshire,United States,3106
+322,www.irregularsoutlet.fake.com,Irregulars Outlet,Company Owner,Pappelallee 19,,Dresden,Hessen,Germany,1071
+324,www.valleytoystore.fake.com,Valley Toy Store,Company Owner,252851 Rowan Place,,Richmond,British Columbia,Canada,V6B 3P7
+326,www.worthwhileactivitystore.fake.com,Worthwhile Activity Store,Company Owner,Flagler Park Plaza,,Miami,Florida,United States,33127
+328,www.purchasemart.fake.com,Purchase Mart,Company Owner,Wrentham Village,,Wrentham,Massachusetts,United States,2093
+330,www.majorsportsuppliers.fake.com,Major Sport Suppliers,Company Owner,White Mountain Mall,,Rock Springs,Wyoming,United States,82901
+332,www.familysfavoritebikeshop.fake.com,Family's Favorite Bike Shop,Company Owner,25981 College Street,,Montreal,Quebec,Canada,H1Y 2H5
+334,www.globalplaza.fake.com,Global Plaza,Company Owner,Belz Factory Outlet,,Pigeon Forge,Tennessee,United States,37863
+336,www.importedanddomesticcycles.fake.com,Imported and Domestic Cycles,Company Owner,22589 West Craig Road,,North Las Vegas,Nevada,United States,89030
+338,www.systematicsales.fake.com,Systematic Sales,Company Owner,2551 East Warner Road,,Gilbert,Arizona,United States,85233
+340,www.ecommercebikes.fake.com,eCommerce Bikes,Company Owner,Gulfport Factory Shops,,Gulfport,Mississippi,United States,39501
+342,www.mountaintoystore.fake.com,Mountain Toy Store,Company Owner,First Colony Mall,,Sugar Land,Texas,United States,77478
+344,www.retailsalesandservice.fake.com,Retail Sales and Service,Company Owner,Lake Region Factory Outlet,,Tilton,New Hampshire,United States,3276
+346,www.designateddistributors.fake.com,Designated Distributors,Company Owner,254 Colonnade Road,,Nepean,Ontario,Canada,K2J 2W5
+348,www.boldbikeaccessories.fake.com,Bold Bike Accessories,Company Owner,Rocky Mountain Pines Outlet,,Loveland,Colorado,United States,80537
+350,www.twincycles.fake.com,Twin Cycles,Company Owner,2253-217 Palmer Street,,Darlinghurst,New South Wales,Australia,2010
+352,www.tinybikeboutique.fake.com,Tiny Bike Boutique,Company Owner,Fsa Outlet Center,,Nashville,Tennessee,United States,37203
+354,www.acclaimedbicyclecompany.fake.com,Acclaimed Bicycle Company,Company Owner,830 Highway 499 So,,Mcdonough,Georgia,United States,30253
+356,www.seriouscycles.fake.com,Serious Cycles,Company Owner,Suite 99320 255 - 510th Avenue S.W.,,Calgary,Alberta,Canada,T2P 2G8
+358,www.qualitybikesales.fake.com,Quality Bike Sales,Company Owner,P.O. Box 990032,,Findon,South Australia,Australia,5023
+360,www.noveltybikes.fake.com,Novelty Bikes,Company Owner,998 Forest Road,,Saginaw,Michigan,United States,48601
+362,www.distinctivecyclessalesservice.fake.com,Distinctive Cycles Sales & Service,Company Owner,Turfway Retail Center,,Florence,Kentucky,United States,41042
+364,www.leadingbikedistributors.fake.com,Leading Bike Distributors,Company Owner,Grand Central Place,,Somerset,Kentucky,United States,42501
+366,www.activitycenter.fake.com,Activity Center,Company Owner,Factory Stores Of America,,Crossville,Tennessee,United States,38555
+368,www.brightworkcompany.fake.com,Brightwork Company,Company Owner,Belz Factory Outlet,,Las Vegas,Nevada,United States,89106
+370,www.resaleservices.fake.com,Resale Services,Company Owner,Fox Hills,,Culver City,California,United States,90232
+372,www.thegearstore.fake.com,The Gear Store,Company Owner,2345 North Freeway,,Houston,Texas,United States,77003
+374,www.immensemanufacturingcompany.fake.com,Immense Manufacturing Company,Company Owner,70 N.W. Plaza,,Saint Ann,Missouri,United States,63074
+376,www.extendedbikesales.fake.com,Extended Bike Sales,Company Owner,The Citadel Commerce Plaza,,City Of Commerce,California,United States,90040
+378,www.pedalingcomponents.fake.com,Pedaling Components,Company Owner,Conesweg 49,,Kiel,Saarland,Germany,24044
+380,www.workoutemporium.fake.com,Workout Emporium,Company Owner,700 Bureau Road,,Montreal,Quebec,Canada,H1Y 2H7
+382,www.workandplayassociation.fake.com,Work and Play Association,Company Owner,2533 Eureka Rd.,,Southgate,Michigan,United States,48195
+384,www.seasidebikeworks.fake.com,Seaside Bike Works,Company Owner,2501 Miller Street,,North Sydney,New South Wales,Australia,2055
+386,www.nicebikes.fake.com,Nice Bikes,Company Owner,Suite 800 2530 Slater Street,,Ottawa,Ontario,Canada,K4B 1T7
+388,www.remarkablebikestore.fake.com,Remarkable Bike Store,Company Owner,Eastern Beltway Center,,Las Vegas,Nevada,United States,89106
+390,www.roadwaymart.fake.com,Road-Way Mart,Company Owner,Southgate Mall,,Missoula,Montana,United States,59801
+392,www.smallcyclestore.fake.com,Small Cycle Store,Company Owner,Horizon Outlet Center,,Holland,Michigan,United States,49423
+394,www.blueribbonbikecompany.fake.com,Blue-Ribbon Bike Company,Company Owner,790 Shelbyville Road,,Saint Matthews,Kentucky,United States,40207
+396,www.flawlessbikeshop.fake.com,Flawless Bike Shop,Company Owner,North County Square,,Vista,California,United States,92084
+398,www.grandbicyclestores.fake.com,Grand Bicycle Stores,Company Owner,48255 I-10 E. @ Eastpoint Blvd.,,Baytown,Texas,United States,77520
+400,www.exertionactivitiesclub.fake.com,Exertion Activities Club,Company Owner,Norwalk Square,,Norwalk,California,United States,90650
+402,www.impromptutrips.fake.com,Impromptu Trips,Company Owner,Valley Mall,,Union Gap,Washington,United States,98903
+404,www.margiestravel.fake.com,Margie's Travel,Company Owner,Woodbury Commons,,Central Valley,New York,United States,10917
+406,www.kickstandsellers.fake.com,Kickstand Sellers,Company Owner,6789 Warren Road,,Westland,Michigan,United States,48185
+408,www.nearestbikestore.fake.com,Nearest Bike Store,Company Owner,Ctrcrt Bus Pk/995-27 Paul St N,,North Ryde,New South Wales,Australia,2113
+410,www.fastbikeworks.fake.com,Fast Bike Works,Company Owner,Level 100,77 Southbank Boulevard,South Melbourne,Victoria,Australia,3205
+412,www.gaslesscycleshop.fake.com,Gasless Cycle Shop,Company Owner,25 First Canadian Place,,Toronto,Ontario,Canada,M4B 1V5
+414,www.lubricantandgreasesuppliers.fake.com,Lubricant and Grease Suppliers,Company Owner,956k North Wesleyan Blvd.,,Rocky Mount,North Carolina,United States,27803
+416,www.teendiscountstore.fake.com,Teen Discount Store,Company Owner,Haberstr 29,,Bonn,Hamburg,Germany,53131
+418,www.transportationoptions.fake.com,Transportation Options,Company Owner,25900-700-9th Ave S.W.,,Calgary,Alberta,Canada,T2P 2G8
+420,www.capitalridingsupplies.fake.com,Capital Riding Supplies,Company Owner,Buergermeister-ulrich-str 9500,,Augsburg,Hamburg,Germany,86171
+422,www.bikeboutique.fake.com,Bike Boutique,Company Owner,Polaris Town Center,,Columbus,Ohio,United States,43215
+424,www.bikesanyone.fake.com,Bikes Anyone?,Company Owner,Ames Plaza,,Saugus,Massachusetts,United States,1906
+426,www.crosstownpartsshop.fake.com,Cross-town Parts Shop,Company Owner,Po Box 25484,,Springwood,New South Wales,Australia,2777
+428,www.finercycleshop.fake.com,Finer Cycle Shop,Company Owner,2500-622 5th Ave Sw,,Calgary,Alberta,Canada,T2P 2G8
+430,www.centercycleshop.fake.com,Center Cycle Shop,Company Owner,99300 223rd Southeast,,Bothell,Washington,United States,98011
+432,www.bulkdiscountstore.fake.com,Bulk Discount Store,Company Owner,"93-2501, Blackfriars Road,",,London,England,United Kingdom,SE1 8HL
+434,www.countrypartsshop.fake.com,Country Parts Shop,Company Owner,"7033, rue de Longchamp",,Les Ulis,Essonne,France,91940
+436,www.secondbikeshop.fake.com,Second Bike Shop,Company Owner,6 Lord Street,,Matraville,New South Wales,Australia,2036
+438,www.firstrateoutlet.fake.com,First-Rate Outlet,Company Owner,25537 Hillside Avenue,,Victoria,British Columbia,Canada,V8V
+440,www.juvenilesportsequipment.fake.com,Juvenile Sports Equipment,Company Owner,78025 E. Mercy Island Cswy,,Merritt Island,Florida,United States,32952
+442,www.anotherbicyclecompany.fake.com,Another Bicycle Company,Company Owner,567 Sw Mcloughlin Blvd,,Milwaukie,Oregon,United States,97222
+444,www.fourthbikestore.fake.com,Fourth Bike Store,Company Owner,77993 Mentor Ave.,,Mentor,Ohio,United States,44060
+446,www.rodewaybikestore.fake.com,Rodeway Bike Store,Company Owner,Winterfeldtstr 5557,Kreditorenbuchhaltung,Münster,Saarland,Germany,48001
+448,www.tractiontirecompany.fake.com,Traction Tire Company,Company Owner,99235 Hawthorne Blvd.,,Torrance,California,United States,90505
+450,www.unsurpassedbikes.fake.com,Unsurpassed Bikes,Company Owner,Po Box 8035996,,Dallas,Texas,United States,75201
+452,www.fieldtripinc.fake.com,Field Trip Inc,Company Owner,997000 Telegraph Rd.,,Southfield,Michigan,United States,48034
+454,www.tirecompany.fake.com,Tire Company,Company Owner,675 East Ave.,,Warwick,Rhode Island,United States,2889
+456,www.uncompromisingqualityco.fake.com,Uncompromising Quality Co,Company Owner,65 Epping Road,,North Ryde,New South Wales,Australia,2113
+458,www.metallicpaintandovercoatco.fake.com,Metallic Paint and Overcoat Co,Company Owner,25751 University Drive,,Vista,California,United States,92084
+460,www.prosportinggoods.fake.com,Pro Sporting Goods,Company Owner,Camarillo Athletic Stores,,Camarillo,California,United States,93010
+462,www.sportinggoodsandbicycleshop.fake.com,Sporting Goods and Bicycle Shop,Company Owner,Fort Henry Mall,,Kingsport,Tennessee,United States,37660
+464,www.odometersandaccessoriescompany.fake.com,Odometers and Accessories Company,Company Owner,"253711 Mayfield Place, Unit 150",,Richmond,British Columbia,Canada,V6B 3P7
+466,www.scratchresistantfinishescompany.fake.com,Scratch-Resistant Finishes Company,Company Owner,5700 Explorer Drive,,Mississauga,Ontario,Canada,L4W 5J3
+468,www.topnotchbikes.fake.com,Topnotch Bikes,Company Owner,574 Atlanta Highway,,Montgomery,Alabama,United States,36104
+470,www.unicyclesbicyclesandtricycles.fake.com,"Unicycles, Bicycles, and Tricycles",Company Owner,Stonewood Mall,,Downey,California,United States,90241
+472,www.safecyclesshop.fake.com,Safe Cycles Shop,Company Owner,25915 140th Ave Ne,,Bellevue,Washington,United States,98004
+474,www.number1supply.fake.com,Number 1 Supply,Company Owner,Escondido,,Escondido,California,United States,92025
+476,www.industrialsupplies.fake.com,Industrial Supplies,Company Owner,825 Coral Way,,Miami,Florida,United States,33127
+478,www.golfandcyclestore.fake.com,Golf and Cycle Store,Company Owner,5500 Grossmont Center Drive,,La Mesa,California,United States,91941
+480,www.frontrunnerbikes.fake.com,Front Runner Bikes,Company Owner,DeSouth Square,,Bradenton,Florida,United States,34205
+482,www.favoritetoydistributor.fake.com,Favorite Toy Distributor,Company Owner,"1, place de la République",,Paris,Seine (Paris),France,75017
+484,www.worldbikediscountstore.fake.com,World Bike Discount Store,Company Owner,3065 Santa Margarita Parkway,,Trabuco Canyon,California,United States,92679
+486,www.globalsportinggoods.fake.com,Global Sporting Goods,Company Owner,Fountains On The Lake,,Stafford,Texas,United States,77477
+488,www.historicbicyclesales.fake.com,Historic Bicycle Sales,Company Owner,Redford Plaza,,Redford,Michigan,United States,48239
+490,www.commuterbicyclestore.fake.com,Commuter Bicycle Store,Company Owner,2575 Bloor Street East,,Toronto,Ontario,Canada,M4B 1V6
+492,www.coalitionbikecompany.fake.com,Coalition Bike Company,Company Owner,Corporate Office,,El Segundo,California,United States,90245
+494,www.travelsystems.fake.com,Travel Systems,Company Owner,2505 Gateway Drive,,North Sioux City,South Dakota,United States,57049
+496,www.greaseandoilproductscompany.fake.com,Grease and Oil Products Company,Company Owner,9903 Highway 6 South,,Houston,Texas,United States,77003
+498,www.moderatelypricedbikesstore.fake.com,Moderately-Priced Bikes Store,Company Owner,67 Rainer Ave S,,Renton,Washington,United States,98055
+500,www.toymanufacturinginc.fake.com,Toy Manufacturing Inc,Company Owner,252345 8810th Avenue,,Surrey,British Columbia,Canada,V3T 4W3
+502,www.eightytoystores.fake.com,Eighty Toy Stores,Company Owner,2025 Greenwood Ct,,Mcdonough,Georgia,United States,30253
+504,www.economybikescompany.fake.com,Economy Bikes Company,Company Owner,72502 Eastern Ave.,,Bell Gardens,California,United States,90201
+506,www.thirdbikestore.fake.com,Third Bike Store,Company Owner,2500 North Stemmons Freeway,,Dallas,Texas,United States,75201
+508,www.atypicalbikecompany.fake.com,Atypical Bike Company,Company Owner,"7551, avenue Foch",,Paris,Seine (Paris),France,75010
+510,www.bikesfortwo.fake.com,Bikes for Two,Company Owner,63 West Beaver Creek,,Richmond Hill,Ontario,Canada,L4E 3M5
+512,www.metalprocessingcompany.fake.com,Metal Processing Company,Company Owner,770 Notre Datme Quest Bureau 800,,Montreal,Quebec,Canada,H1Y 2H7
+514,www.widgetbicyclespecialists.fake.com,Widget Bicycle Specialists,Company Owner,23456 Calumet St,,Clearwater,Florida,United States,33755
+516,www.initialbikecompany.fake.com,Initial Bike Company,Company Owner,789 West Alameda,,Westminster,Colorado,United States,80030
+518,www.latestsportsequipment.fake.com,Latest Sports Equipment,Company Owner,4251 First Avenue,,Seattle,Washington,United States,98104
+520,www.modernbikestore.fake.com,Modern Bike Store,Company Owner,Saltonstall Parkway,,East Haven,Connecticut,United States,6512
+522,www.rawmaterialsinc.fake.com,Raw Materials Inc,Company Owner,Bldg. 9n/99298,,Redmond,Washington,United States,98052
+524,www.lotsofbikesstorehouse.fake.com,Lots of Bikes Storehouse,Company Owner,4255 East Lies Road,,Carol Stream,Illinois,United States,60188
+526,www.futuristicbikes.fake.com,Futuristic Bikes,Company Owner,25136 Jefferson Blvd.,,Culver City,California,United States,90232
+528,www.parcelexpressdeliveryservice.fake.com,Parcel Express Delivery Service,Company Owner,Washington Square,,Portland,Oregon,United States,97205
+530,www.outdoordistributors.fake.com,Outdoor Distributors,Company Owner,225 Hyde Rd,,Farmington,Connecticut,United States,6032
+532,www.northbikecompany.fake.com,North Bike Company,Company Owner,Auf Der Steige 29,,Muehlheim,Hamburg,Germany,63151
+534,www.prosperoustours.fake.com,Prosperous Tours,Company Owner,99-3 Forest Works,,London,England,United Kingdom,E17 6JF
+536,www.nonskidtirecompany.fake.com,Nonskid Tire Company,Company Owner,Holiday Village Mall,,Great Falls,Montana,United States,59401
+538,www.amalgamatedpartsshop.fake.com,Amalgamated Parts Shop,Company Owner,Brunnenstr 422,,Frankfurt am Main,Hamburg,Germany,60082
+540,www.metrobikeworks.fake.com,Metro Bike Works,Company Owner,250000 Eight Mile Road,,Detroit,Michigan,United States,48226
+542,www.bestobikes.fake.com,Best o' Bikes,Company Owner,250880 Baur Blvd,,Saint Louis,Missouri,United States,63103
+544,www.paintersbicyclespecialists.fake.com,Painters Bicycle Specialists,Company Owner,9975 Union St.,,Waterbury,Connecticut,United States,6710
+546,www.clientdiscountstore.fake.com,Client Discount Store,Company Owner,Noah Lane,,Chicago,Illinois,United States,60610
+548,www.eastsidesportinggoods.fake.com,Eastside Sporting Goods,Company Owner,89950 Castleton Corner,,Indianapolis,Indiana,United States,46204
+550,www.helmetsandcycles.fake.com,Helmets and Cycles,Company Owner,Rosebery,,Lavender Bay,New South Wales,Australia,2060
+552,www.requisitepartsupply.fake.com,Requisite Part Supply,Company Owner,600 Slater Street,,Ottawa,Ontario,Canada,K4B 1S2
+554,www.racksandsecuritysystems.fake.com,Racks and Security Systems,Company Owner,One Equinox Way,,Sunrise,Florida,United States,33322
+556,www.mechanicalproductsltd.fake.com,Mechanical Products Ltd.,Company Owner,22555 Paseo De Las Americas,,San Diego,California,United States,92102
+558,www.commendablebikes.fake.com,Commendable Bikes,Company Owner,4781 Highway 95,,Sandpoint,Idaho,United States,83864
+560,www.onlinebikesellers.fake.com,Online Bike Sellers,Company Owner,678 Eastman Ave.,,Midland,Michigan,United States,48640
+562,www.customaccessoriescompany.fake.com,Custom Accessories Company,Company Owner,251 Indell Lane,,Brampton,Ontario,Canada,L6W 2T7
+564,www.unusualbicyclecompany.fake.com,Unusual Bicycle Company,Company Owner,85 Egerton Street,,Silverwater,New South Wales,Australia,2264
+566,www.courteousbicyclespecialists.fake.com,Courteous Bicycle Specialists,Company Owner,995 Crescent,,Richmond Hill,Ontario,Canada,L4E 3M5
+568,www.hobbystore.fake.com,Hobby Store,Company Owner,Highland Lakes Shopping Ctr.,,Orlando,Florida,United States,32804
+570,www.professionalcyclestore.fake.com,Professional Cycle Store,Company Owner,Arcadia Crossing,,Phoenix,Arizona,United States,85004
+572,www.bikeuniverse.fake.com,Bike Universe,Company Owner,Nut Tree Factory,,Vacaville,California,United States,95688
+574,www.fifthbikestore.fake.com,Fifth Bike Store,Company Owner,2502 Evergreen Ste E,,Everett,Washington,United States,98201
+576,www.independentoutlet.fake.com,Independent Outlet,Company Owner,Great Northern Mall Hwy4 & Rt. 31,,Clay,New York,United States,13041
+578,www.ramblingtours.fake.com,Rambling Tours,Company Owner,Rotthäuser Weg 511,,Stuttgart,Saarland,Germany,70511
+580,www.farthestbikestore.fake.com,Farthest Bike Store,Company Owner,45259 Canada Way,,Burnaby,British Columbia,Canada,V5G 4S4
+582,www.excellentbikes.fake.com,Excellent Bikes,Company Owner,Hans-Rosenthal-Platz 4223,,Grevenbroich,Bayern,Germany,41485
+584,www.curbsideuniverse.fake.com,Curbside Universe,Company Owner,25264 E. 260th,,Euclid,Ohio,United States,44119
+586,www.alternativevehicles.fake.com,Alternative Vehicles,Company Owner,3307 Evergreen Blvd,Ste 1071,Washougal,Washington,United States,98671
+588,www.channeloutlet.fake.com,Channel Outlet,Company Owner,Knaves Beech Ind.,,High Wycombe,England,United Kingdom,HP10 9QY
+590,www.fullsportssupply.fake.com,Full Sports Supply,Company Owner,"39, route de Marseille",,Paris,Seine (Paris),France,75016
+592,www.retailmall.fake.com,Retail Mall,Company Owner,254480 River Rd,,Richmond,British Columbia,Canada,V6B 3P7
+594,www.racingstore.fake.com,Racing Store,Company Owner,"30, avenue de l´ Union Centrale",,Les Ulis,Essonne,France,91940
+596,www.metrometalsco.fake.com,Metro Metals Co.,Company Owner,2524 Barlby Road,,London,England,United Kingdom,W10 6BL
+598,www.sheetmetalmanufacturing.fake.com,Sheet Metal Manufacturing,Company Owner,25306 Harvey Rd.,,College Station,Texas,United States,77840
+600,www.thoroughpartsandrepairservices.fake.com,Thorough Parts and Repair Services,Company Owner,S Sound Ctr Suite 25300,,Lacey,Washington,United States,98503
+602,www.uttermostbikeshop.fake.com,Uttermost Bike Shop,Company Owner,Ellesfield Ave,,Bracknell,England,United Kingdom,RG12 8TB
+604,www.mechanicalsportscenter.fake.com,Mechanical Sports Center,Company Owner,6225 Glenway Ave.,,Cincinnati,Ohio,United States,45202
+606,www.speedometersales.fake.com,Speedometer Sales,Company Owner,Am Karlshof 8200,,Hamburg,Hessen,Germany,22001
+608,www.twowheeledtransitcompany.fake.com,Two-Wheeled Transit Company,Company Owner,P.O. Box 44000,,Winnipeg,Manitoba,Canada,R3
+610,www.mountainemporium.fake.com,Mountain Emporium,Company Owner,25800 Gallitin Rd.,,Nashville,Tennessee,United States,37203
+612,www.metrocycleshop.fake.com,Metro Cycle Shop,Company Owner,2507 Pacific Ave S,,Tacoma,Washington,United States,98403
+614,www.outdoorsportinggoods.fake.com,Outdoor Sporting Goods,Company Owner,Lakewood Mall,,Lakewood,California,United States,90712
+616,www.treadindustries.fake.com,Tread Industries,Company Owner,25631 Florida Mall Ave.,,Orlando,Florida,United States,32804
+618,www.petroleumproductsdistributors.fake.com,Petroleum Products Distributors,Company Owner,20225 Lansing Ave,,Montreal,Quebec,Canada,H1Y 2H7
+620,www.tandembicyclestore.fake.com,Tandem Bicycle Store,Company Owner,3333 Micro Drive,,Millington,Tennessee,United States,38054
+622,www.bikesandmotorbikes.fake.com,Bikes and Motorbikes,Company Owner,22580 Free Street,,Toronto,Ontario,Canada,M4B 1V7
+624,www.budgettoystore.fake.com,Budget Toy Store,Company Owner,25 Epping Road,,Lavender Bay,New South Wales,Australia,2060
+626,www.campingandsportsstore.fake.com,Camping and Sports Store,Company Owner,400-25155 West Pender St,,Vancouver,British Columbia,Canada,V7L 4J4
+628,www.acebicyclesupply.fake.com,Ace Bicycle Supply,Company Owner,"36, avenue de la Gare",,Paris,Seine (Paris),France,75019
+630,www.ruraldepartmentstore.fake.com,Rural Department Store,Company Owner,5967 W Las Positas Blvd,,Pleasanton,California,United States,94566
+632,www.sportscommodities.fake.com,Sports Commodities,Company Owner,253950 N.E. 178th Place,,Woodinville,Washington,United States,98072
+634,www.riversidecompany.fake.com,Riverside Company,Company Owner,5998 E Lorain,,Oberlin,Ohio,United States,44074
+636,www.bicycleexporters.fake.com,Bicycle Exporters,Company Owner,Hellweg 4934,,Essen,Hamburg,Germany,45001
+638,www.responsiblebikedealers.fake.com,Responsible Bike Dealers,Company Owner,Ward Parkway Center,,Kansas City,Missouri,United States,64106
+640,www.westernbikesupplies.fake.com,Western Bike Supplies,Company Owner,566 S. Main,,Cedar City,Utah,United States,84720
+642,www.advancedbikecomponents.fake.com,Advanced Bike Components,Company Owner,12345 Sterling Avenue,,Irving,Texas,United States,75061
+644,www.aerobicexercisecompany.fake.com,Aerobic Exercise Company,Company Owner,39933 Mission Oaks Blvd,,Camarillo,California,United States,93010
+646,www.ruralsportinggoods.fake.com,Rural Sporting Goods,Company Owner,Auf der Krone 53,,Bonn,Nordrhein-Westfalen,Germany,53131
+648,www.cornerbicyclesupply.fake.com,Corner Bicycle Supply,Company Owner,2511 Baker Road,,Toronto,Ontario,Canada,M4B 1V7
+650,www.distancebikes.fake.com,Distance Bikes,Company Owner,Park North Business Center,,Clarkston,Georgia,United States,30021
+652,www.westsideplaza.fake.com,Westside Plaza,Company Owner,99040 California Avenue,,Sand City,California,United States,93955
+654,www.ultimatebikeshop.fake.com,Ultimate Bike Shop,Company Owner,Foothills Mall,,Maryville,Tennessee,United States,37801
+656,www.outstandingcycles.fake.com,Outstanding Cycles,Company Owner,North 93270 Newport Highway,,Spokane,Washington,United States,99202
+658,www.vigoroussportsstore.fake.com,Vigorous Sports Store,Company Owner,Banbury,,Oxon,England,United Kingdom,OX16 8RS
+660,www.sportsmerchandise.fake.com,Sports Merchandise,Company Owner,558 S 6th St,,Klamath Falls,Oregon,United States,97601
+662,www.fitnesstoystore.fake.com,Fitness Toy Store,Company Owner,220 Mercy Drive,,Garland,Texas,United States,75040
+664,www.casualbicyclestore.fake.com,Casual Bicycle Store,Company Owner,Westside Plaza,,Nashua,New Hampshire,United States,3064
+666,www.fitnessdiscountstore.fake.com,Fitness Discount Store,Company Owner,Level 992,56 Pitt Street,Melbourne,Victoria,Australia,3000
+668,www.generalcyclestorehouse.fake.com,General Cycle Storehouse,Company Owner,"30025 Wayburne Drive, Suite 275",,Burnaby,British Columbia,Canada,V5G 4W1
+670,www.fitnesscycling.fake.com,Fitness Cycling,Company Owner,The Quad @ WestView,,Whittier,California,United States,90605
+672,www.goodbikeshop.fake.com,Good Bike Shop,Company Owner,99433 S. Greenbay Rd.,,Racine,Wisconsin,United States,53182
+674,www.imaginarytoys.fake.com,Imaginary Toys,Company Owner,4210 E Sprague Ave,,Spokane,Washington,United States,99202
+676,www.inexpensivepartsshop.fake.com,Inexpensive Parts Shop,Company Owner,2253 Miller Street,,North Sydney,New South Wales,Australia,2055
+678,www.nutsandboltsmfg.fake.com,Nuts and Bolts Mfg.,Company Owner,6th Floor Ferguson Block,,Toronto,Ontario,Canada,M4B 1V7
+680,www.principalbicyclesupply.fake.com,Principal Bicycle Supply,Company Owner,39950 Airport Blvd.,,Mobile,Alabama,United States,36602
+682,www.thrillingbiketours.fake.com,Thrilling Bike Tours,Company Owner,4660 Rodeo Road,,Santa Fe,New Mexico,United States,87501
+684,www.thisareasportinggoods.fake.com,This Area Sporting Goods,Company Owner,25 N State St,,Chicago,Illinois,United States,60610
+686,www.fullservicebikestore.fake.com,Full-Service Bike Store,Company Owner,9920 North Telegraph Rd.,,Pontiac,Michigan,United States,48342
+688,www.plasticproductsmanufacturers.fake.com,Plastic Products Manufacturers,Company Owner,5525 Glenferrie Road,,Hawthorne,Queensland,Australia,4171
+690,www.kidsandadultscycleshop.fake.com,Kids and Adults Cycle Shop,Company Owner,258 Berry Street,,North Sydney,New South Wales,Australia,2055
+692,www.granddiscountstore.fake.com,Grand Discount Store,Company Owner,Indiana Factory Shops,,Daleville,Indiana,United States,47334
+694,www.genuinebikeshop.fake.com,Genuine Bike Shop,Company Owner,7760 N. Pan Am Expwy,,San Antonio,Texas,United States,78204
+696,www.extremeridingsupplies.fake.com,Extreme Riding Supplies,Company Owner,Riverside,,Sherman Oaks,California,United States,91403
+698,www.bikerimscompany.fake.com,Bike Rims Company,Company Owner,Edgewater Mall,,Biloxi,Mississippi,United States,39530
+700,www.fleetbikes.fake.com,Fleet Bikes,Company Owner,54254 Pacific Ave.,,Stockton,California,United States,95202
+702,www.localhardwarefactory.fake.com,Local Hardware Factory,Company Owner,42500 W 76th St,,Chicago,Illinois,United States,60610
+704,www.onlybikesandaccessories.fake.com,Only Bikes and Accessories,Company Owner,123 Union Square South,,New York,New York,United States,10007
+706,www.rentalgallery.fake.com,Rental Gallery,Company Owner,2520b Underwood Street,,Lavender Bay,New South Wales,Australia,2060
+708,www.southbikecompany.fake.com,South Bike Company,Company Owner,Po Box 83270,,Vancouver,British Columbia,Canada,V7L 4J4
+710,www.wonderfulbikesinc.fake.com,Wonderful Bikes Inc.,Company Owner,C/O Arrow Electronics,,Memphis,Tennessee,United States,38103
+712,www.anothersportinggoodscompany.fake.com,Another Sporting Goods Company,Company Owner,5650 West 88th Ave.,,Westminster,Colorado,United States,80030
+714,www.discountbicyclespecialists.fake.com,Discount Bicycle Specialists,Company Owner,25269 Wood Dale Rd.,,Wood Dale,Illinois,United States,60191
+716,www.famousbikesalesandservice.fake.com,Famous Bike Sales and Service,Company Owner,P.O. Box 9005,,Endicott,New York,United States,13760
+718,www.firstsupplies.fake.com,First Supplies,Company Owner,Chabbell Park,,North Ryde,New South Wales,Australia,2113
+720,www.machinescyclesstore.fake.com,Machines & Cycles Store,Company Owner,25245 Rue Sherbrooke Ouest,,Montreal,Quebec,Canada,H1Y 2H5
+722,www.pedalswarehouse.fake.com,Pedals Warehouse,Company Owner,6055 Shawnee Industrial Way,,Suwanee,Georgia,United States,30024
+724,www.twowheelscyclestore.fake.com,Two Wheels Cycle Store,Company Owner,77 Beale Street,Room 99767c,San Francisco,California,United States,94109
+726,www.westsidecyclestore.fake.com,Westside Cycle Store,Company Owner,25550 Executive Dr,,Elgin,Illinois,United States,60120
+728,www.wholesalebikes.fake.com,Wholesale Bikes,Company Owner,58 Teed Drive,,Randolph,Massachusetts,United States,2368
+730,www.verybestsportssupply.fake.com,Very Best Sports Supply,Company Owner,Kurfürstenstr 9,,Duesseldorf,Hessen,Germany,40605
+732,www.urbansportsemporium.fake.com,Urban Sports Emporium,Company Owner,2560 Bay Street,,Toronto,Ontario,Canada,M4B 1V7
+734,www.superlativebikes.fake.com,Superlative Bikes,Company Owner,8525 Nw 17th St.,,Miami,Florida,United States,33127
+736,www.primarycycleshop.fake.com,Primary Cycle Shop,Company Owner,Am Grossen Dern 982,,Hamburg,Hamburg,Germany,20354
+738,www.sixthbikestore.fake.com,Sixth Bike Store,Company Owner,Suite 25800 3401 - 10810th Avenue,,Surrey,British Columbia,Canada,V3T 4W3
+740,www.touringservices.fake.com,Touring Services,Company Owner,25 Myrtle Beach,,Myrtle Beach,South Carolina,United States,29577
+742,www.vehicleshop.fake.com,Vehicle Shop,Company Owner,Pavillion @ Redlands,,Redlands,California,United States,92373
+744,www.firstdepartmentstores.fake.com,First Department Stores,Company Owner,2540 Dell Range Blvd,,Cheyenne,Wyoming,United States,82001
+746,www.grandsportboutique.fake.com,Grand Sport Boutique,Company Owner,99800 Tittabawasee Rd.,,Saginaw,Michigan,United States,48601
+748,www.majorequipmentco.fake.com,Major Equipment Co,Company Owner,Holzstr 6444,,Salzgitter,Hessen,Germany,38231
+750,www.customsalesandservice.fake.com,Custom Sales and Service,Company Owner,255117 - 101 Avenue,,Surrey,British Columbia,Canada,V3T 4W3
+752,www.elementalsportinggoods.fake.com,Elemental Sporting Goods,Company Owner,99842 White Mill East,,Decatur,Georgia,United States,30030
+754,www.distinctivestore.fake.com,Distinctive Store,Company Owner,Factory Merchants,,Barstow,California,United States,92311
+756,www.grandcyclestore.fake.com,Grand Cycle Store,Company Owner,44606 N Division St,,Spokane,Washington,United States,99202
+758,www.nearbybikemall.fake.com,Nearby Bike Mall,Company Owner,Nonnendamm 63,,Berlin,Nordrhein-Westfalen,Germany,14197
+760,www.handybikeservices.fake.com,Handy Bike Services,Company Owner,399700 John R. Rd.,,Madison Heights,Michigan,United States,48071
+762,www.friendlybikeshop.fake.com,Friendly Bike Shop,Company Owner,750 Lakeway Dr,,Bellingham,Washington,United States,98225
+764,www.fashionablebikesandaccessories.fake.com,Fashionable Bikes and Accessories,Company Owner,Sports Store At Park City,,Park City,Utah,United States,84098
+766,www.extremetoystore.fake.com,Extreme Toy Store,Company Owner,7725 Luddington Lane,,Birmingham,Alabama,United States,35203
+768,www.citywideserviceandrepair.fake.com,Citywide Service and Repair,Company Owner,Box 99354 300 Union Street,,Saint John,Brunswick,Canada,E2P 1E3
+770,www.bestcyclestore.fake.com,Best Cycle Store,Company Owner,Berliner Platz 45,,Offenbach,Saarland,Germany,63009
+772,www.professionalsportinggoods.fake.com,Professional Sporting Goods,Company Owner,42500 South Franklin Street,,Michigan City,Indiana,United States,46360
+774,www.ruggedbikes.fake.com,Rugged Bikes,Company Owner,48995 Evergreen Wy.,,Everett,Washington,United States,98201
+776,www.principalbikecompany.fake.com,Principal Bike Company,Company Owner,Mountain Square,,Upland,California,United States,91786
+778,www.onepiecehandlebars.fake.com,One-Piece Handle Bars,Company Owner,4496 Barnes Crossing Rd.,,Tupelo,Mississippi,United States,38804
+780,www.finerridingsupplies.fake.com,Finer Riding Supplies,Company Owner,#9900 2700 Production Way,,Burnaby,British Columbia,Canada,V5A 4X1
+782,www.neighborhoodstore.fake.com,Neighborhood Store,Company Owner,6777 Kingsway,,Burnaby,British Columbia,Canada,V5H 3Z7
+784,www.onlinebikecatalog.fake.com,Online Bike Catalog,Company Owner,65 Epping Rd,,Lavender Bay,New South Wales,Australia,2060
+786,www.outdoorequipmentstore.fake.com,Outdoor Equipment Store,Company Owner,6 Cotton Road,,Nashua,New Hampshire,United States,3064
+788,www.paintsupply.fake.com,Paint Supply,Company Owner,Corporate Office,,Garland,Texas,United States,75040
+790,www.preferredbikes.fake.com,Preferred Bikes,Company Owner,Incom Sports Center,,Ontario,California,United States,91764
+792,www.rallydaymall.fake.com,Rally Day Mall,Company Owner,2561 Nw 8410th Avenue,,Miami,Florida,United States,33127
+794,www.rewardingactivitiescompany.fake.com,Rewarding Activities Company,Company Owner,25575 The Queensway,,Etobicoke,Ontario,Canada,M9W 3P3
+796,www.richdepartmentstore.fake.com,Rich Department Store,Company Owner,99 - 6 Orion Road,,Lane Cove,New South Wales,Australia,1597
+798,www.salesandsupplycompany.fake.com,Sales and Supply Company,Company Owner,Corporate Ofc A/p,123 Fourth Ave,Chantilly,Virginia,United States,20151
+800,www.stationarybikesandstands.fake.com,Stationary Bikes and Stands,Company Owner,Sapp Road West,,Round Rock,Texas,United States,78664
+802,www.successfulsalescompany.fake.com,Successful Sales Company,Company Owner,7009 Sw Hall Blvd.,,Tigard,Oregon,United States,97223
+804,www.downtownhotel.fake.com,Downtown Hotel,Company Owner,2560 E. Newlands Dr,,Fernley,Nevada,United States,89408
+806,www.certifiedsportssupply.fake.com,Certified Sports Supply,Company Owner,250551 Shellbridge Way,,Richmond,British Columbia,Canada,V6B 3P7
+808,www.registeredcyclestore.fake.com,Registered Cycle Store,Company Owner,"26, rue Saint Denis",,Orleans,Loiret,France,45000
+810,www.rampartamusementcompany.fake.com,Rampart Amusement Company,Company Owner,Bradford,"Raven House, Kingsgate",W. York,England,United Kingdom,BD1 4SJ
+812,www.sundrysportinggoods.fake.com,Sundry Sporting Goods,Company Owner,595 Burning Street,,Vancouver,British Columbia,Canada,V7L 4J4
+814,www.excellentridingsupplies.fake.com,Excellent Riding Supplies,Company Owner,"6555 Quince Road, Suite 2025",,Memphis,Tennessee,United States,38103
+816,www.farthermostbikeshop.fake.com,Farthermost Bike Shop,Company Owner,99000 S. Avalon Blvd. Suite 750,,Carson,California,United States,90746
+818,www.suburbancycleshop.fake.com,Suburban Cycle Shop,Company Owner,994 Sw Cherry Park Rd,,Troutdale,Oregon,United States,97060
+820,www.weekendtours.fake.com,Weekend Tours,Company Owner,42522 Northrupp,,Fort Wayne,Indiana,United States,46807
+822,www.racingbikeoutlet.fake.com,Racing Bike Outlet,Company Owner,225 South 314th Street,,Federal Way,Washington,United States,98003
+824,www.utilitariansportinggoods.fake.com,Utilitarian Sporting Goods,Company Owner,4635 S. Harrison Blvd.,,Ogden,Utah,United States,84401
+826,www.bikegoods.fake.com,Bike Goods ,Company Owner,254075 Biscayne Blvd.,,North Miami Beach,Florida,United States,33162
+828,www.vigorousexercisecompany.fake.com,Vigorous Exercise Company,Company Owner,"9950 Ferrand Drive, 9th Floor",,Toronto,Ontario,Canada,M4B 1V4
+830,www.showcaseforcycles.fake.com,Showcase for Cycles,Company Owner,Erftplatz 22,,Sulzbach Taunus,Saarland,Germany,66272
+832,www.leaseabikeshop.fake.com,Lease-a-Bike Shop,Company Owner,Connecticut Post Mall,,Milford,Connecticut,United States,6460
+834,www.functionalstoresouth.fake.com,Functional Store South,Company Owner,Viktoria-Luise-Platz 475,,München,Nordrhein-Westfalen,Germany,80074
+836,www.activecycling.fake.com,Active Cycling,Company Owner,Indian Mound Mall,,Heath,Ohio,United States,43056
+838,www.stockpartsandsupplies.fake.com,Stock Parts and Supplies,Company Owner,99295 S.e. Tualatin Valley_hwy.,,Hillsboro,Oregon,United States,97123
+840,www.roadwaysupplies.fake.com,Roadway Supplies,Company Owner,2564 S. Redwood Rd.,,Riverton,Utah,United States,84065
+842,www.sensationaldiscountstore.fake.com,Sensational Discount Store,Company Owner,6333 Cloverleaf Parkway,,Kannapolis,North Carolina,United States,28081
+844,www.futurebikes.fake.com,Future Bikes,Company Owner,"67255 - 8th Street N.E., Suite 350",,Calgary,Alberta,Canada,T2P 2G8
+846,www.supersportsstore.fake.com,Super Sports Store,Company Owner,Washington Square Ii,,Indianapolis,Indiana,United States,46204
+848,www.satinfinishcompany.fake.com,Satin Finish Company,Company Owner,25220 Airline Road,,Corpus Christi,Texas,United States,78404
+850,www.regionalmanufacturing.fake.com,Regional Manufacturing,Company Owner,Factory Stores/tucson,,Tucson,Arizona,United States,85701
+852,www.originalbicyclesupplycompany.fake.com,Original Bicycle Supply Company,Company Owner,2573 Dufferin Street,,Toronto,Ontario,Canada,M4B 1V5
+854,www.firstcenter.fake.com,First Center,Company Owner,"22, rue Lafayette",,Pantin,Seine Saint Denis,France,93500
+856,www.actionbicyclespecialists.fake.com,Action Bicycle Specialists,Company Owner,Warrington Ldc Unit 25/2,,Woolston,England,United Kingdom,WA1 4SY
+858,www.roadwaybikeemporium.fake.com,Roadway Bike Emporium,Company Owner,Medford,,Medford,Oregon,United States,97504
+860,www.sleekbikes.fake.com,Sleek Bikes ,Company Owner,44025 W. Empire,,Denby,South Dakota,United States,57716
+862,www.retailsportingequipment.fake.com,Retail Sporting Equipment,Company Owner,Factory Stores Of America,,Mesa,Arizona,United States,85201
+864,www.pricecutterdiscountbikes.fake.com,Price-Cutter Discount Bikes,Company Owner,6700 Boul Taschereau,,Brossard,Quebec,Canada,J4Z 1C5
+866,www.brandnewbikes.fake.com,Brand New Bikes,Company Owner,"215, avenue Reille",,Les Ulis,Essonne,France,91940
+868,www.centralbicyclespecialists.fake.com,Central Bicycle Specialists,Company Owner,"6 The Farm, Liberty Road",,Maidenhead,England,United Kingdom,SL67RJ
+870,www.vastbikesalesandrental.fake.com,Vast Bike Sales and Rental,Company Owner,Lewis County Mall,,Chehalis,Washington,United States,98532
+872,www.summersportsplace.fake.com,Summer Sports Place,Company Owner,Ring Plaza,,Norridge,Illinois,United States,60706
+874,www.realsportinggoods.fake.com,Real Sporting Goods,Company Owner,7709 West Virginia Avenue,,Phoenix,Arizona,United States,85004
+876,www.versatilesportinggoodscompany.fake.com,Versatile Sporting Goods Company,Company Owner,Alderstr 1849,,Braunschweig,Nordrhein-Westfalen,Germany,38001
+878,www.bicycleoutfitters.fake.com,Bicycle Outfitters,Company Owner,Cherry Grove Plaza,,Cincinnati,Ohio,United States,45202
+880,www.thebikeshop.fake.com,The Bike Shop,Company Owner,3250 South Meridian,,Puyallup,Washington,United States,98371
+882,www.safetoys.fake.com,Safe Toys,Company Owner,49925 Crestview Drive N.E.,,Rio Rancho,New Mexico,United States,87124
+884,www.qualifiedsalesandrepairservices.fake.com,Qualified Sales and Repair Services,Company Owner,Savannah Festival Outlet,,Savannah,Georgia,United States,31401
+886,www.oursportinggoodsstore.fake.com,Our Sporting Goods Store,Company Owner,6030 Conroy Road,,Ottawa,Ontario,Canada,K4B 1S3
+888,www.lustrouspaintsandcomponents.fake.com,Lustrous Paints and Components,Company Owner,Kurfürstenstr 74,,Poing,Saarland,Germany,66041
+890,www.expertsportsstore.fake.com,Expert Sports Store,Company Owner,Spring Meadows Place,,Holland,Ohio,United States,43528
+892,www.cohosports.fake.com,Coho Sports,Company Owner,705 SE Mall Parkway,,Everett,Washington,United States,98201
+894,www.jumbobikes.fake.com,Jumbo Bikes,Company Owner,254a James Street Botany,,Malabar,New South Wales,Australia,2036
+896,www.quickdeliveryservice.fake.com,Quick Delivery Service,Company Owner,5990 Avebury Road,,Mississauga,Ontario,Canada,L5B 3V4
+898,www.toughandreliableparts.fake.com,Tough and Reliable Parts,Company Owner,Market Square Shopping Center,,Lakeland,Florida,United States,33801
+900,www.basicsportsequipment.fake.com,Basic Sports Equipment,Company Owner,3250 Baldwin Park Blvd,,Baldwin Park,California,United States,91706
+902,www.cashcarrybikes.fake.com,Cash & Carry Bikes,Company Owner,Lakeline Mall,,Cedar Park,Texas,United States,78613
+904,www.convenientbikeshop.fake.com,Convenient Bike Shop,Company Owner,Tree Plaza,,Braintree,Massachusetts,United States,2184
+906,www.fitnessbikeaccessories.fake.com,Fitness Bike Accessories,Company Owner,Level 7,114 Albert Road,Rhodes,New South Wales,Australia,2138
+908,www.generalbikecorporation.fake.com,General Bike Corporation,Company Owner,69251 Creditview Road,,Mississauga,Ontario,Canada,L5B 3V4
+910,www.quittingbusinessdistributors.fake.com,Quitting Business Distributors,Company Owner,University Plaza,,Tampa,Florida,United States,33602
+912,www.retailcycleshop.fake.com,Retail Cycle Shop,Company Owner,Bayshore Mall,,Eureka,California,United States,95501
+914,www.socialactivitiesclub.fake.com,Social Activities Club,Company Owner,23025 S.W. Military Rd.,,San Antonio,Texas,United States,78204
+916,www.bluebicyclecompany.fake.com,Blue Bicycle Company,Company Owner,Horizon Outlet Center,,Monroe,Michigan,United States,98272
+918,www.expertcyclestore.fake.com,Expert Cycle Store,Company Owner,Orwith Center,39 Herbert Street,St. Leonards,New South Wales,Australia,2065
+920,www.generalridingsupplies.fake.com,General Riding Supplies,Company Owner,"43251 Viking Way, Unit 130",,Richmond,British Columbia,Canada,V6B 3P7
+922,www.partsshop.fake.com,Parts Shop,Company Owner,West Georgia Commons,,La Grange,Georgia,United States,30240
+924,www.ridingexcursions.fake.com,Riding Excursions,Company Owner,West Park Plaza,,Irvine,California,United States,92614
+926,www.uniquebikes.fake.com,Unique Bikes,Company Owner,3900 S. 997th St.,,Milwaukee,Wisconsin,United States,53202
+928,www.ruralcycleemporium.fake.com,Rural Cycle Emporium,Company Owner,6388 Lake City Way,,Burnaby,British Columbia,Canada,V5A 3A6
+930,www.associatedbikes.fake.com,Associated Bikes,Company Owner,5420 West 22500 South,,Salt Lake City,Utah,United States,84101
+932,www.modularcyclesystems.fake.com,Modular Cycle Systems,Company Owner,800 Interchange Blvd.,Suite 2501,Austin,Texas,United States,78701
+934,www.abikestore.fake.com,A Bike Store,Company Owner,2251 Elliot Avenue,,Seattle,Washington,United States,98104
+936,www.journeysportinggoods.fake.com,Journey Sporting Goods,Company Owner,509 Nafta Boulevard,,Laredo,Texas,United States,78040
+938,www.twobikeshops.fake.com,Two Bike Shops,Company Owner,35525-9th Street Sw,,Puyallup,Washington,United States,98371
+940,www.cycleswholesalermfg.fake.com,Cycles Wholesaler & Mfg.,Company Owner,"Science Park South, Birchwood",Stanford House,Warrington,England,United Kingdom,WA3 7BH
+942,www.wheelsinc.fake.com,Wheels Inc.,Company Owner,"21105, rue de Varenne",,Paris,Seine (Paris),France,75013
+944,www.numberonebikeco.fake.com,Number One Bike Co.,Company Owner,"Elmhurst Road, Goring",,Reading,England,United Kingdom,RG7 5H7
+946,www.racingsupplydistributors.fake.com,Racing Supply Distributors,Company Owner,"57, rue des Vendangeurs",,Roissy en Brie,Seine et Marne,France,77680
+948,www.standardbikes.fake.com,Standard Bikes,Company Owner,9979 Bayview Drive,,Barrie,Ontario,Canada,L4N
+950,www.thebicycleaccessoriescompany.fake.com,The Bicycle Accessories Company,Company Owner,Vista Marketplace,,Alhambra,California,United States,91801
+952,www.activesystems.fake.com,Active Systems,Company Owner,9995 West Central Entrance,,Duluth,Minnesota,United States,55802
+954,www.futuristicsportdistributors.fake.com,Futuristic Sport Distributors,Company Owner,5525 South Hover Road,,Longmont,Colorado,United States,80501
+956,www.finersalesandservice.fake.com,Finer Sales and Service,Company Owner,#500-75 O'Connor Street,,Ottawa,Ontario,Canada,K4B 1S2
+958,www.bigtimebikestore.fake.com,Big-Time Bike Store,Company Owner,9909 W. Ventura Boulevard,,Camarillo,California,United States,93010
+960,www.theshowroom.fake.com,The Showroom,Company Owner,4400 March Road,,Kanata,Ontario,Canada,K2L 1H5
+962,www.spaandexerciseoutfitters.fake.com,Spa and Exercise Outfitters,Company Owner,"33, rue Georges-Clémenceau",,Cergy,Val d'Oise,France,95000
+964,www.yearroundsports.fake.com,Year-Round Sports,Company Owner,2583 Se 272nd St,,Kent,Washington,United States,98031
+966,www.thenewbikestore.fake.com,The New Bike Store,Company Owner,Hanford Mall,,Hanford,California,United States,93230
+968,www.residentcycleshop.fake.com,Resident Cycle Shop,Company Owner,5230a Hwy. 2553,,Hixson,Tennessee,United States,37343
+970,www.primarybikedistributors.fake.com,Primary Bike Distributors,Company Owner,965 De La Gauchetiere West,,Montreal,Quebec,Canada,H1Y 2H8
+972,www.majorbicyclestore.fake.com,Major Bicycle Store,Company Owner,Level 6,538 Climbing Street,Matraville,New South Wales,Australia,2036
+974,www.leatherandvinylmanufacturing.fake.com,Leather and Vinyl Manufacturing,Company Owner,250 E. County Line Rd.,,Indianapolis,Indiana,United States,46204
+976,www.genialbikeassociates.fake.com,Genial Bike Associates,Company Owner,99450 Highway 59 North,,Humble,Texas,United States,77338
+978,www.commercialsportinggoods.fake.com,Commercial Sporting Goods,Company Owner,9700 Sisk Road,,Modesto,California,United States,95354
+980,www.wholesaleparts.fake.com,Wholesale Parts,Company Owner,655-4th Ave S.W.,,Calgary,Alberta,Canada,T2P 2G8
+982,www.steelinc.fake.com,Steel Inc.,Company Owner,"5, place de la Concorde",,Colombes,Hauts de Seine,France,92700
+984,www.ridingcycles.fake.com,Riding Cycles,Company Owner,Galashiels,,Liverpool,England,United Kingdom,L4 4HB
+986,www.metromanufacturing.fake.com,Metro Manufacturing,Company Owner,2550 Signet Drive,,Weston,Ontario,Canada,M9V 4W3
+988,www.manufacturersinc.fake.com,Manufacturers Inc,Company Owner,Po Box 08050,,Nashville,Tennessee,United States,37203
+990,www.lockscompany.fake.com,Locks Company,Company Owner,70259 West Sunnyview Ave,,Visalia,California,United States,93291
+992,www.latestaccessoriessales.fake.com,Latest Accessories Sales,Company Owner,Gateway,,Portland,Oregon,United States,97205
+994,www.incomparablebicyclestore.fake.com,Incomparable Bicycle Store,Company Owner,99 Edgewater Drive,,Norwood,Massachusetts,United States,2062
+996,www.hometownridingsupplies.fake.com,Hometown Riding Supplies,Company Owner,Bundesallee 9571,Rechnungsstelle - C 035,Berlin,Brandenburg,Germany,14197
+998,www.greaterbikestore.fake.com,Greater Bike Store,Company Owner,55 Lakeshore Blvd East,,Toronto,Ontario,Canada,M4B 1V6
+1000,www.gamesandsportsupplycompany.fake.com,Games and Sport Supply Company,Company Owner,2525 Electrics Blvd.,,Huntsville,Alabama,United States,35801
+1002,www.distantinn.fake.com,Distant Inn,Company Owner,25001 Montague Expressway,,Milpitas,California,United States,95035
+1004,www.finermart.fake.com,Finer Mart,Company Owner,640 South 994th St. W.,,Billings,Montana,United States,59101
+1006,www.economicpartssupply.fake.com,Economic Parts Supply,Company Owner,2532 Fairgrounds Road,,West Kingston,Rhode Island,United States,2892
+1008,www.precisiongearsinc.fake.com,Precision Gears Inc.,Company Owner,Roßstr 2248,,Stuttgart,Saarland,Germany,70511
+1010,www.crosscountryridingsupplies.fake.com,Cross-Country Riding Supplies,Company Owner,Station E,,Chalk Riber,Ontario,Canada,K0J 1J0
+1012,www.stylishdepartmentstores.fake.com,Stylish Department Stores,Company Owner,1 Corporate Center Drive,,Miami,Florida,United States,33127
+1014,www.bikeworld.fake.com,Bike World,Company Owner,60025 Bollinger Canyon Road,,San Ramon,California,United States,94583
+1016,www.centraldiscountstore.fake.com,Central Discount Store,Company Owner,259826 Russell Rd. South,,Kent,Washington,United States,98031
+1018,www.trustedcatalogstore.fake.com,Trusted Catalog Store,Company Owner,9920 Picketts Line Road,,Newport News,Virginia,United States,23607
+1020,www.bicyclewarehouseinc.fake.com,Bicycle Warehouse Inc.,Company Owner,Karl Liebknecht str 299,,Frankfurt am Main,Saarland,Germany,60075
+1022,www.sharpbikes.fake.com,Sharp Bikes,Company Owner,52560 Free Street,,Toronto,Ontario,Canada,M4B 1V7
+1024,www.exemplarycycles.fake.com,Exemplary Cycles,Company Owner,79945 Corporate Center Drive,,Miami,Florida,United States,33127
+1026,www.metropolitansportssupply.fake.com,Metropolitan Sports Supply,Company Owner,482505 Warm Springs Blvd.,,Fremont,California,United States,94536
+1028,www.progressivesports.fake.com,Progressive Sports,Company Owner,3207 S Grady Way,,Renton,Washington,United States,98055
+1030,www.underglazeandfinishcompany.fake.com,Underglaze and Finish Company,Company Owner,8520 University City Blvd,,Charlotte,North Carolina,United States,28202
+1032,www.brakesandgears.fake.com,Brakes and Gears,Company Owner,9927 N. Main St.,,Tooele,Utah,United States,84074
+1034,www.theaccessoriesstore.fake.com,The Accessories Store,Company Owner,Medford Outlet Center,,Medford,Minnesota,United States,55049
+1036,www.mountainbikestore.fake.com,Mountain Bike Store,Company Owner,Amity Plaza,,New Haven,Connecticut,United States,6510
+1038,www.bikepartwholesalers.fake.com,Bike Part Wholesalers,Company Owner,254a Baker Street,Botany,Sydney,New South Wales,Australia,1002
+1040,www.familycyclestore.fake.com,Family Cycle Store,Company Owner,"660 Saint-Jacques, Bureau 400",,Montreal,Quebec,Canada,H1Y 2H8
+1042,www.popularbikelines.fake.com,Popular Bike Lines,Company Owner,Level 7,80 Arthur Street,Newcastle,New South Wales,Australia,2300
+1044,www.superbsalesandrepair.fake.com,Superb Sales and Repair,Company Owner,990th Floor 700 De La GauchetiSre Ou,,Montreal,Quebec,Canada,H1Y 2H3
+1046,www.betterbikeshop.fake.com,Better Bike Shop,Company Owner,42525 Austell Road,,Austell,Georgia,United States,30106
+1048,www.countrysidecompany.fake.com,Countryside Company,Company Owner,825 W 500 S,,Bountiful,Utah,United States,84010
+1050,www.firstbikestore.fake.com,First Bike Store,Company Owner,Kansas City Factory Outlet,,Odessa,Missouri,United States,64076
+1052,www.traditionaldepartmentstores.fake.com,Traditional Department Stores,Company Owner,Green Acres Mall,,Valley Stream,New York,United States,11580
+1054,www.eastsidecycleshop.fake.com,Eastside Cycle Shop,Company Owner,45671 Queens Road Ct.,,Melbourne,Victoria,Australia,3000
+1056,www.generaldepartmentstores.fake.com,General Department Stores,Company Owner,"253131 Lake Frasier Drive, Office No. 2",,Calgary,Alberta,Canada,T2P 2G8
+1058,www.massmarketbikes.fake.com,Mass Market Bikes,Company Owner,Level 59,,Alexandria,New South Wales,Australia,2015
+1060,www.operationalmanufacturing.fake.com,Operational Manufacturing,Company Owner,"25730, boul. St-Régis",,Dorval,Quebec,Canada,H9P 1H1
+1062,www.onlinebikewarehouse.fake.com,Online Bike Warehouse,Company Owner,"32605 West 252 Mile Road, Suite 250",,Aurora,Ontario,Canada,L4G 7N6
+1064,www.retreadtirecompany.fake.com,Retread Tire Company,Company Owner,9935 Robert C Daniel Jr Parkway,,Augusta,Georgia,United States,30901
+1066,www.smallbikeshop.fake.com,Small Bike Shop,Company Owner,Corp Ofc Accts Payable,,El Segundo,California,United States,90245
+1068,www.superiorhardwaredistributors.fake.com,Superior Hardware Distributors,Company Owner,250775 SW Hillsdale Hwy,,Beaverton,Oregon,United States,97005
+1070,www.fitnesssportboutique.fake.com,Fitness Sport Boutique,Company Owner,Dansk Square,,Kittery,Maine,United States,3904
+1072,www.producergoodsclearinghouse.fake.com,Producer Goods Clearinghouse,Company Owner,Postfach 55 00 00,,Frankfurt,Bayern,Germany,91480
+1074,www.recreationsystems.fake.com,Recreation Systems,Company Owner,Logansport Mall,,Logansport,Indiana,United States,46947
+1076,www.rusticbikestore.fake.com,Rustic Bike Store,Company Owner,Buergermeister-ulrich-str 3000,Buchhaltung,Augsburg,Bayern,Germany,86150
+1078,www.eastsidepartsshop.fake.com,Eastside Parts Shop,Company Owner,7000 Victoria Park Avenue,,Toronto,Ontario,Canada,M4B 1V4
+1080,www.exchangepartsinc.fake.com,Exchange Parts Inc.,Company Owner,7700 Green Road,,Raleigh,North Carolina,United States,27603
+1082,www.firstcyclestore.fake.com,First Cycle Store,Company Owner,25250 N 90th St,,Scottsdale,Arizona,United States,85257
+1084,www.runningandcyclinggear.fake.com,Running and Cycling Gear,Company Owner,No. 60 Bellis Fair Parkway,,Bellingham,Washington,United States,98225
+1086,www.seventhbikestore.fake.com,Seventh Bike Store,Company Owner,Stateline Plaza,,Plaistow,New Hampshire,United States,3865
+1088,www.fastservices.fake.com,Fast Services,Company Owner,Königsteiner Straße 449,,Leipzig,Nordrhein-Westfalen,Germany,4139
+1090,www.generalassociates.fake.com,General Associates,Company Owner,32525 Hollywood Blvd.,,Hollywood,Florida,United States,33021
+1092,www.goodtoys.fake.com,Good Toys,Company Owner,99700 Bell Road,,Auburn,California,United States,95603
+1094,www.littlebicyclesupplyshop.fake.com,Little Bicycle Supply Shop,Company Owner,Cedar Creek Stores,,Mosinee,Wisconsin,United States,54455
+1096,www.retailtoystore.fake.com,Retail Toy Store,Company Owner,"Dadeland Mall, Space 25090",,Miami,Florida,United States,33127
+1098,www.strenuousexerciseshop.fake.com,Strenuous Exercise Shop,Company Owner,25620 Firestone Boulevard,,Norwalk,California,United States,90650
+1100,www.allseasonssportssupply.fake.com,All Seasons Sports Supply,Company Owner,Ohms Road,,Houston,Texas,United States,77003
+1102,www.leisureclearinghouse.fake.com,Leisure Clearing House,Company Owner,Unit 99a Battery Retail Pk,,Birmingham,England,United Kingdom,B29 6SL
+1104,www.outdoortoystore.fake.com,Outdoor Toy Store,Company Owner,"18, rue de l´Esplanade",,Aujan Mournede,Gers,France,32300
+1106,www.thecommissary.fake.com,The Commissary,Company Owner,"Bureau 9900 825, Avenue Querbes",,Outremont,Quebec,Canada,H1Y 2G5
+1108,www.affordablesportsequipment.fake.com,Affordable Sports Equipment,Company Owner,Lake Elisnor Place,,Lake Elsinore,California,United States,92530
+1110,www.localsalesandrental.fake.com,Local Sales and Rental,Company Owner,1200 First Ave.,,Joliet,Illinois,United States,60433
+1112,www.economycenter.fake.com,Economy Center,Company Owner,"6th Floor, 25st Canadian Place",,Toronto,Ontario,Canada,M4B 1V5
+1114,www.communitydepartmentstores.fake.com,Community Department Stores,Company Owner,"3639, rue des Grands Champs",,Boulogne-sur-Mer,Pas de Calais,France,62200
+1116,www.areasheetmetalsupply.fake.com,Area Sheet Metal Supply,Company Owner,399 Clearing Green,,London,England,United Kingdom,EC1R 0DU
+1118,www.syntheticmaterialsmanufacturing.fake.com,Synthetic Materials Manufacturing,Company Owner,3390 South 23rd St.,,Tacoma,Washington,United States,98403
+1120,www.ruralsalesandservice.fake.com,Rural Sales and Service,Company Owner,Management Mall,,San Antonio,Texas,United States,78204
+1122,www.tubelesstirecompany.fake.com,Tubeless Tire Company,Company Owner,2574 Milton Park,,Oxford,England,United Kingdom,OX14 4SE
+1124,www.tiresandtubes.fake.com,Tires and Tubes,Company Owner,25708 Dell Range Blvd.,,Cheyenne,Wyoming,United States,82001
+1126,www.hardwarecomponents.fake.com,Hardware Components,Company Owner,City Center,,Minneapolis,Minnesota,United States,55402
+1128,www.retailsportinggoods.fake.com,Retail Sporting Goods,Company Owner,6753 Howard Hughes Parkway,,Las Vegas,Nevada,United States,89106
+1130,www.efficientcycling.fake.com,Efficient Cycling,Company Owner,"250333 Southport Road, S.W.",,Calgary,Alberta,Canada,T2P 2G8
+1132,www.generalindustries.fake.com,General Industries,Company Owner,9259 - 1110th Avenue Sw,,Calgary,Alberta,Canada,T2P 2G8
+1134,www.highwaybikeshop.fake.com,Highway Bike Shop,Company Owner,Simi @ The Plaza,,Simi Valley,California,United States,93065
+1136,www.rentalbikes.fake.com,Rental Bikes,Company Owner,"99828 Routh Street, Suite 825",,Dallas,Texas,United States,75201
+1138,www.rovingsports.fake.com,Roving Sports,Company Owner,4927 S Meridian Ave Ste D,,Puyallup,Washington,United States,98371
+1140,www.expressbikeservices.fake.com,Express Bike Services,Company Owner,"586 Fulham Road,",,London,England,United Kingdom,SW6 SBY
+1142,www.majoramusementcompany.fake.com,Major Amusement Company,Company Owner,"2111, rue de Linois",,Orly,Val de Marne,France,94310
+1144,www.retaildiscountstore.fake.com,Retail Discount Store,Company Owner,2510 Crew Court,,Montreal,Quebec,Canada,H1Y 2H8
+1146,www.valeridingsupplies.fake.com,Vale Riding Supplies,Company Owner,Topanga Plaza,,Canoga Park,California,United States,91303
+1148,www.agreatbicyclecompany.fake.com,A Great Bicycle Company,Company Owner,6030 Robinson Road,,Jefferson City,Missouri,United States,65101
+1150,www.certifiedbicyclesupply.fake.com,Certified Bicycle Supply,Company Owner,2345 West Spencer Road,,Lynnwood,Washington,United States,98036
+1152,www.exceptionalcycleservices.fake.com,Exceptional Cycle Services,Company Owner,Wade Road,,Basingstoke Hants,England,United Kingdom,RG24 8PL
+1154,www.instantcyclestore.fake.com,Instant Cycle Store,Company Owner,"21801, rue Léo Delibes",,Colombes,Hauts de Seine,France,92700
+1156,www.leisureactivities.fake.com,Leisure Activities,Company Owner,65 Gamelin Street,,Hull,Quebec,Canada,8Y
+1158,www.paintsandsolventscompany.fake.com,Paints and Solvents Company,Company Owner,955 E. County Line Rd.,,Englewood,Colorado,United States,80110
+1160,www.westwinddistributors.fake.com,West Wind Distributors,Company Owner,Krönerweg 9249,,Hannover,Nordrhein-Westfalen,Germany,30601
+1162,www.bikesforkidsandadults.fake.com,Bikes for Kids and Adults,Company Owner,9900 Ronson Drive,,Etobicoke,Ontario,Canada,M9W 3P3
+1164,www.consolidatedsales.fake.com,Consolidated Sales,Company Owner,Carolina Factory Shops,,Gaffney,South Carolina,United States,29340
+1166,www.hometownbikestore.fake.com,Home Town Bike Store,Company Owner,955 Green Valley Crescent,,Ottawa,Ontario,Canada,K4B 1S1
+1168,www.optimalbikes.fake.com,Optimal Bikes,Company Owner,25050 S. Columbia Ave,,Campbellsville,Kentucky,United States,42718
+1170,www.samplebikestore.fake.com,Sample Bike Store,Company Owner,2530 South Colorado Blvd.,,Denver,Colorado,United States,80203
+1172,www.extrassportinggoods.fake.com,Extras Sporting Goods,Company Owner,625 W Jackson Blvd. Unit 2502,,Chicago,Illinois,United States,60610
+1174,www.surereliablesportinggoods.fake.com,Sure & Reliable Sporting Goods,Company Owner,7990 Ocean Beach Hwy.,,Longview,Washington,United States,98632
+1176,www.eleventhbikestore.fake.com,Eleventh Bike Store,Company Owner,25850 Post Road,,Westport,Connecticut,United States,6880
+1178,www.enterprisecenter.fake.com,Enterprise Center,Company Owner,Kurfürstenstr 574,,München,Hessen,Germany,80074
+1180,www.purplebicyclecompany.fake.com,Purple Bicycle Company,Company Owner,2550 Middlefield Road,,Scarborough,Ontario,Canada,M1V 4M2
+1182,www.newandusedbicycles.fake.com,New and Used Bicycles,Company Owner,3990 Silas Creek Parkway,,Winston-Salem,North Carolina,United States,27104
+1184,www.separatepartscorporation.fake.com,Separate Parts Corporation,Company Owner,440 West Huntington Dr.,,Monrovia,California,United States,91016
+1186,www.basicbikecompany.fake.com,Basic Bike Company,Company Owner,15 East Main,,Port Orchard,Washington,United States,98366
+1188,www.fabrikamincwest.fake.com,"Fabrikam Inc., West",Company Owner,46460 West Oaks Drive,,Novi,Michigan,United States,48375
+1190,www.mechanicalbrakemanufacturers.fake.com,Mechanical Brake Manufacturers,Company Owner,Alte Landstr 776,,München,Hamburg,Germany,80074
+1192,www.nonslippedalcompany.fake.com,Non-Slip Pedal Company,Company Owner,258 King Street East,,Toronto,Ontario,Canada,M4B 1V7
+1194,www.varietybikeoutlet.fake.com,Variety Bike Outlet,Company Owner,83995 South Dixie Highway,,Miami,Florida,United States,33127
+1196,www.weekendbiketours.fake.com,Weekend Bike Tours,Company Owner,630 N. Capitol Ave.,,San Jose,California,United States,95112
+1198,www.fabrikaminceast.fake.com,"Fabrikam Inc., East",Company Owner,Roßstr 9938,Verkaufsabteilung,Eilenburg,Brandenburg,Germany,4838
+1200,www.generalsupplies.fake.com,General Supplies,Company Owner,9693 Louis H Lafontaine,,Ville De'anjou,Quebec,Canada,J1G 2R3
+1202,www.noiselessgearcompany.fake.com,Noiseless Gear Company,Company Owner,Peachtree Mall,,Columbus,Georgia,United States,31901
+1204,www.racingtoys.fake.com,Racing Toys,Company Owner,Prime Outlets,,Phoenix,Arizona,United States,85004
+1206,www.capablesalesandservice.fake.com,Capable Sales and Service,Company Owner,765 Delridge Way Sw,,Seattle,Washington,United States,98104
+1208,www.littlesportscenter.fake.com,Little Sports Center,Company Owner,7 Pioneer Business Park,,York,England,United Kingdom,Y03 4TN
+1210,www.prettybikesandtoys.fake.com,Pretty Bikes and Toys,Company Owner,"9005, rue des Bouchers",,Paris,Seine (Paris),France,75005
+1212,www.roadwaysalesandrental.fake.com,Road Way Sales and Rental,Company Owner,2900 - 25055 Dunning Street,,Vancouver,British Columbia,Canada,V7L 4J4
+1214,www.sturdytoys.fake.com,Sturdy Toys,Company Owner,Pacific West Outlet,,Gilroy,California,United States,95020
+1216,www.beneficialexercisesandactivities.fake.com,Beneficial Exercises and Activities,Company Owner,6425 Nw Loop 410,,San Antonio,Texas,United States,78204
+1218,www.fadoutlet.fake.com,Fad Outlet,Company Owner,2550 Ne Sandy Blvd,,Portland,Oregon,United States,97205
+1220,www.commercebicyclespecialists.fake.com,Commerce Bicycle Specialists,Company Owner,Wharfdale Road,,Berkshire,England,United Kingdom,RG11 5TP
+1222,www.townshipinn.fake.com,Township Inn,Company Owner,"61, rue Henri Gagnon",,Les Ulis,Essonne,France,91940
+1224,www.acceptablesalesservice.fake.com,Acceptable Sales & Service,Company Owner,"6400, 888 - 3rd Avenue",,Calgary,Alberta,Canada,T2P 2G8
+1226,www.brownbicyclecompany.fake.com,Brown Bicycle Company,Company Owner,University Town Center,,San Diego,California,United States,92102
+1228,www.districtmall.fake.com,District Mall,Company Owner,25095 W. Florissant,,Ferguson,Missouri,United States,63135
+1230,www.fitnesssupplies.fake.com,Fitness Supplies,Company Owner,755 W Washington Ave Ste D,,Sequim,Washington,United States,98382
+1232,www.mailmarket.fake.com,Mail Market,Company Owner,308-3250 Casting Road,,York,England,United Kingdom,Y024 1GF
+1234,www.sparepartsco.fake.com,Spare Parts Co.,Company Owner,"3101, avenue de Malakoff",,Paris,Seine (Paris),France,75003
+1236,www.twelfthbikestore.fake.com,Twelfth Bike Store,Company Owner,No. 25400 10665 Jasper Avenue,,Edmonton,Alberta,Canada,T5
+1238,www.consolidatedmessenger.fake.com,Consolidated Messenger,Company Owner,25 Danger Street West,Floor 7,Toronto,Ontario,Canada,M4B 1V5
+1240,www.daringrides.fake.com,Daring Rides,Company Owner,Bay Area Outlet Mall,,Clearwater,Florida,United States,33755
+1242,www.fieldtripstore.fake.com,Field Trip Store,Company Owner,2575 Rocky Mountain Ave.,,Loveland,Colorado,United States,80537
+1244,www.finishandsealantproducts.fake.com,Finish and Sealant Products,Company Owner,25150 El Camino Real,,San Bruno,California,United States,94066
+1246,www.finerpartsshop.fake.com,Finer Parts Shop,Company Owner,2526a Tri-Lake Blvd Ne,,Kirkland,Washington,United States,98033
+1248,www.glossybikes.fake.com,Glossy Bikes,Company Owner,Adirondack Factory Outlet,,Lake George,New York,United States,12845
+1250,www.nextdoorcycles.fake.com,Next Door Cycles,Company Owner,Brunnenstr 9511,,Berlin,Saarland,Germany,14197
+1252,www.uptodatesports.fake.com,Up-To-Date Sports,Company Owner,2521 McPherson Street,,Markham,Ontario,Canada,L3S 3K2
+1254,www.mountainbikecenter.fake.com,Mountain Bike Center,Company Owner,6756 Mowry,,Newark,California,United States,94560
+1256,www.specialtysportsstore.fake.com,Specialty Sports Store,Company Owner,52500 Liberty Way,,Fort Worth,Texas,United States,76102
+1258,www.scootersandbikesstore.fake.com,Scooters and Bikes Store,Company Owner,258101 Nw Evergreen Parkway,,Beaverton,Oregon,United States,97005
+1260,www.closestbicyclestore.fake.com,Closest Bicycle Store,Company Owner,"Garamonde Drive, Wymbush",PO Box 4023,Milton Keynes,England,United Kingdom,MK8 8ZD
+1262,www.roadwaybicyclesupply.fake.com,Roadway Bicycle Supply,Company Owner,"121, rue de Varenne",,Courbevoie,Hauts de Seine,France,92400
+1264,www.refineddepartmentstores.fake.com,Refined Department Stores,Company Owner,5250-505 Burning St,,Vancouver,British Columbia,Canada,V7L 4J4
+1266,www.reasonablebicyclesales.fake.com,Reasonable Bicycle Sales,Company Owner,"C/O Starpak, Inc.",,Greeley,Colorado,United States,80631
+1268,www.outofthewayhotels.fake.com,Out-of-the-Way Hotels,Company Owner,25269 N. Wood Dale Rd,,Wood Dale,Illinois,United States,60191
+1270,www.outdoorsportssupply.fake.com,Outdoor Sports Supply,Company Owner,Great Northwestern,,North Bend,Washington,United States,98045
+1272,www.outdooraerobicsystemscompany.fake.com,Outdoor Aerobic Systems Company,Company Owner,255 Irving Street,,London,England,United Kingdom,C2H 7AU
+1274,www.selfcontainedcyclepartscompany.fake.com,Self-Contained Cycle Parts Company,Company Owner,"12, rue des Grands Champs",,Verrieres Le Buisson,Essonne,France,91370
+1276,www.metalclearinghouse.fake.com,Metal Clearing House,Company Owner,3255 Front Street West,,Toronto,Ontario,Canada,M4B 1V6
+1278,www.manybikesstore.fake.com,Many Bikes Store,Company Owner,Receiving,,Fullerton,California,United States,92831
+1280,www.largestbikestore.fake.com,Largest Bike Store,Company Owner,63 W Monroe,,Chicago,Illinois,United States,60610
+1282,www.kickstandsandaccessoriescompany.fake.com,Kickstands and Accessories Company,Company Owner,25300 Biddle Road,,Medford,Oregon,United States,97504
+1284,www.instrumentsandpartscompany.fake.com,Instruments and Parts Company,Company Owner,"Phoenix Way, Cirencester",,Gloucestershire,England,United Kingdom,GL7 1RY
+1286,www.neighborhoodbicyclestorehouse.fake.com,Neighborhood Bicycle Storehouse,Company Owner,"69, boulevard Tremblay",,Roncq,Nord,France,59223
+1288,www.gearshiftbikeslimited.fake.com,Gear-Shift Bikes Limited,Company Owner,2512-4th Ave Sw,,Calgary,Alberta,Canada,T2P 2G8
+1290,www.frugalbikeshop.fake.com,Frugal Bike Shop,Company Owner,2575 West 2700 South,,Salt Lake City,Utah,United States,84101
+1292,www.familyentertainmentcenter.fake.com,Family Entertainment Center,Company Owner,25718 Se Sunnyside Rd,,Clackamas,Oregon,United States,97015-6403
+1294,www.gocartandbikespecialists.fake.com,Go-cart and Bike Specialists,Company Owner,2509 W. Frankford,,Carrollton,Texas,United States,75006
+1296,www.trailblazingsports.fake.com,Trailblazing Sports,Company Owner,251340 E. South St.,,Cerritos,California,United States,90703
+1298,www.racingpartners.fake.com,Racing Partners,Company Owner,2512-410th Avenue S.W.,,Calgary,Alberta,Canada,T2P 2G8
+1300,www.perfecttoys.fake.com,Perfect Toys,Company Owner,"68081, place du Tertre",,Colomiers,Garonne (Haute),France,31770
+1302,www.exhibitionshowroom.fake.com,Exhibition Showroom,Company Owner,"Garamonde Drive, Wymbush",P.O. Box 803,Milton Keynes,England,United Kingdom,MK8 8ZD
+1304,www.authorizedbikesalesandrental.fake.com,Authorized Bike Sales and Rental,Company Owner,490 Ne 4th St,,Renton,Washington,United States,98055
+1306,www.twoseaterbikes.fake.com,Two-Seater Bikes,Company Owner,5700 Legacy Dr,,Plano,Texas,United States,75074
+1308,www.morebikes.fake.com,More Bikes!,Company Owner,25600 E St Andrews Pl,,Santa Ana,California,United States,92701
+1310,www.unifiedsportscompany.fake.com,Unified Sports Company,Company Owner,9876 Fruitville Rd,,Sarasota,Florida,United States,34236
+1312,www.nationalmanufacturing.fake.com,National Manufacturing,Company Owner,630 University Avenue,,Toronto,Ontario,Canada,M4B 1V7
+1314,www.volumebikesellers.fake.com,Volume Bike Sellers,Company Owner,2565-175 Mitchell Road,,Alexandria,New South Wales,Australia,2015
+1316,www.wheelsetsstorehouse.fake.com,Wheelsets Storehouse,Company Owner,63 Badgers Island West,,Kittery,Maine,United States,3904
+1318,www.townindustries.fake.com,Town Industries,Company Owner,P.O. Box 6256916,,Dallas,Texas,United States,75201
+1320,www.securityracksandlockswholesalers.fake.com,Security Racks and Locks Wholesalers,Company Owner,910 Main Street.,,Sparks,Nevada,United States,89431
+1322,www.rapidbikes.fake.com,Rapid Bikes,Company Owner,992 St Clair Ave East,,Toronto,Ontario,Canada,M4B 1V7
+1324,www.metrosportsequipment.fake.com,Metro Sports Equipment,Company Owner,"6, rue des Pyrenees",,Saint Ouen,Loir et Cher,France,41100
+1326,www.nearbysportinggoods.fake.com,Nearby Sporting Goods,Company Owner,Bradford,,W. York,England,United Kingdom,BD1 4SJ
+1328,www.frontsportinggoods.fake.com,Front Sporting Goods,Company Owner,257700 Ne 76th Street,,Redmond,Washington,United States,98052
+1330,www.elitebikes.fake.com,Elite Bikes,Company Owner,Po Box 8259024,,Dallas,Texas,United States,75201
+1332,www.catalogstore.fake.com,Catalog Store,Company Owner,855 East Main Avenue,,Zeeland,Michigan,United States,49464
+1334,www.chicdepartmentstores.fake.com,Chic Department Stores,Company Owner,90025 Sterling St,,Irving,Texas,United States,75061
+1336,www.eastsidedepartmentstore.fake.com,Eastside Department Store,Company Owner,9992 Whipple Rd,,Union City,California,United States,94587
+1338,www.sportssalesandrental.fake.com,Sports Sales and Rental,Company Owner,100 Fifth Drive,,Millington,Tennessee,United States,38054
+1340,www.cyclemerchants.fake.com,Cycle Merchants,Company Owner,575 Rue St Amable,,Quebec,Quebec,Canada,G1R
+1342,www.globalsportsoutlet.fake.com,Global Sports Outlet,Company Owner,Ctrcrt Bus Pk/995-27 Paul St N,,Lavender Bay,New South Wales,Australia,2060
+1344,www.exoticbikes.fake.com,Exotic Bikes,Company Owner,6900 William Richardson Ct.,,South Bend,Indiana,United States,46601
+1346,www.fitnesshotel.fake.com,Fitness Hotel,Company Owner,74400 France Avenue South,,Edina,Minnesota,United States,55436
+1348,www.healthyactivitystore.fake.com,Healthy Activity Store,Company Owner,4460 Newport Center Drive,,Newport Beach,California,United States,92625
+1350,www.everybikeshop.fake.com,Every Bike Shop,Company Owner,2550 High Street,,La Vergne,Tennessee,United States,37086
+1352,www.grandindustries.fake.com,Grand Industries,Company Owner,6333 Cote Vertu,,Montreal,Quebec,Canada,H1Y 2H7
+1354,www.idealcomponents.fake.com,Ideal Components,Company Owner,2-252 Beauchamp Road,Botany Bay Industrial Estate,Cloverdale,South Australia,Australia,6105
+1356,www.largercycleshop.fake.com,Larger Cycle Shop,Company Owner,Attn: Accounts Payable,44 Main Place,Melville,New York,United States,11747
+1358,www.leadingsalesrepair.fake.com,Leading Sales & Repair,Company Owner,25149 Howard Dr,,West Chicago,Illinois,United States,60185
+1360,www.mainbicycleservices.fake.com,Main Bicycle Services,Company Owner,60750 San Clemente,,Hayward,California,United States,94541
+1362,www.metrobikemart.fake.com,Metro Bike Mart,Company Owner,Po Box 2257,,Greensboro,North Carolina,United States,27412
+1364,www.tandemsalesandservice.fake.com,Tandem Sales and Service,Company Owner,63 Free St.,,Toronto,Ontario,Canada,M4B 1V4
+1366,www.sensiblesports.fake.com,Sensible Sports,Company Owner,Level 5,157 Liverpool Street,Rhodes,New South Wales,Australia,2138
+1368,www.reliableretailcenter.fake.com,Reliable Retail Center,Company Owner,609 Evans Avenue,,Toronto,Ontario,Canada,M4B 1V4
+1370,www.liquidationsales.fake.com,Liquidation Sales,Company Owner,No. 6,Millenium Court,Perth,South Australia,Australia,6006
+1372,www.friendlybikeshop.fake.com,Friendly Bike Shop,Company Owner,Port Huron,,Port Huron,Michigan,United States,48060
+1374,www.yellowbicyclecompany.fake.com,Yellow Bicycle Company,Company Owner,St. Louis Marketplace,,Saint Louis,Missouri,United States,63103
+1376,www.sportsproductsstore.fake.com,Sports Products Store,Company Owner,Po Box 252525,,Santa Ana,California,United States,92701
+1378,www.selecteddistributors.fake.com,Selected Distributors,Company Owner,99535 Dallas Highway,,Marietta,Georgia,United States,30060
+1380,www.imperviouspaintcompany.fake.com,Impervious Paint Company,Company Owner,"3383, rue Lamarck",,Paris,Seine (Paris),France,75007
+1382,www.shippingspecialists.fake.com,Shipping Specialists,Company Owner,"25 Hartfield Road, Wimbledon",,London,England,United Kingdom,SW19 3RU
+1384,www.finersportinggoods.fake.com,Finer Sporting Goods,Company Owner,"28, avenue des Champs-Elysées",,Croix,Nord,France,59170
+1386,www.authenticsalesandservice.fake.com,Authentic Sales and Service,Company Owner,"99 Dean Street, Soho",,London,England,United Kingdom,W1V 5RN
+1388,www.officialpartsshop.fake.com,Official Parts Shop,Company Owner,9905 Three Rivers Drive,,Kelso,Washington,United States,98626
+1390,www.contosoltd.fake.com,"Contoso, Ltd.",Company Owner,Fiesta Trail Shopping Center,,San Antonio,Texas,United States,78204
+1392,www.discounttours.fake.com,Discount Tours,Company Owner,603 Gellert Blvd,,Daly City,California,United States,94015
+1394,www.tireexchange.fake.com,Tire Exchange,Company Owner,9984 Wellington Street,,Ottawa,Ontario,Canada,K4B 1S2
+1396,www.racingtours.fake.com,Racing Tours,Company Owner,"21, avenue de la Gare",,Sèvres,Hauts de Seine,France,92310
+1398,www.oilsandfluidswarehouse.fake.com,Oils and Fluids Warehouse,Company Owner,"Park House-4th Floor, 2516 Park St.",,London,England,United Kingdom,W1Y 3RA
+1400,www.finishedpartsshop.fake.com,Finished Parts Shop,Company Owner,"62, route de Marseille",,Suresnes,Hauts de Seine,France,92150
+1402,www.consumerequipment.fake.com,Consumer Equipment,Company Owner,"67 Vincent Square, Victoria",,London,England,United Kingdom,SW1P 2NU
+1404,www.rallymastercompanyinc.fake.com,Rally Master Company Inc,Company Owner,870 N. 54th Ave.,,Chandler,Arizona,United States,85225
+1406,www.professionalcyclists.fake.com,Professional Cyclists,Company Owner,2545 King Street West,,Toronto,Ontario,Canada,M4B 1V7
+1408,www.sportsproductsstore.fake.com,Sports Products Store,Company Owner,"98, rue de Terre Neuve",,Lieusaint,Seine et Marne,France,77127
+1410,www.exclusivebicyclemart.fake.com,Exclusive Bicycle Mart,Company Owner,"Butterfield Hse, 7-251 Chapel St",,Lancaster,England,United Kingdom,LA1 1LN
+1412,www.citymanufacturing.fake.com,City Manufacturing,Company Owner,3025 E Waterway Blvd,,Shelton,Washington,United States,98584
+1414,www.bikedealersassociation.fake.com,Bike Dealers Association,Company Owner,9952 E. Lohman Ave.,,Las Cruces,New Mexico,United States,88001
+1416,www.pedalsystemscompany.fake.com,Pedal Systems Company,Company Owner,656 Cox Creek Pkwy.,,Florence,Alabama,United States,35630
+1418,www.healthspalimited.fake.com,"Health Spa, Limited",Company Owner,2500 University Avenue,,Toronto,Ontario,Canada,M4B 1V5
+1420,www.globalbikeretailers.fake.com,Global Bike Retailers,Company Owner,Königsteiner Straße 9,,Bad Soden,Hessen,Germany,65800
+1422,www.fashionabledepartmentstores.fake.com,Fashionable Department Stores,Company Owner,7505 Commercial Dr.,,New Hartford,New York,United States,13413
+1424,www.closeoutboutique.fake.com,Closeout Boutique,Company Owner,1050 Oak Street,,Seattle,Washington,United States,98104
+1426,www.bicyclemerchandisewarehouse.fake.com,Bicycle Merchandise Warehouse,Company Owner,409 Santa Monica Blvd.,,Santa Monica,California,United States,90401
+1428,www.spokemanufacturers.fake.com,Spoke Manufacturers,Company Owner,2545 N.W. 107th Ave.,,Miami,Florida,United States,33127
+1430,www.leatherseatfactory.fake.com,Leather Seat Factory,Company Owner,"9900-6400 Boul, Taschereau",,Brossard,Quebec,Canada,J4Z 1R4
+1432,www.goodbicyclestore.fake.com,Good Bicycle Store,Company Owner,Werftstr 4400,,Sulzbach Taunus,Saarland,Germany,66272
+1434,www.endurancebikes.fake.com,Endurance Bikes,Company Owner,99200 Dixwell Ave.,,Hamden,Connecticut,United States,6518
+1436,www.practicalbikesupplycompany.fake.com,Practical Bike Supply Company,Company Owner,Horizon Outlet,,Woodbury,Minnesota,United States,55125
+1438,www.somediscountstore.fake.com,Some Discount Store,Company Owner,Frontier Mall,,Cheyenne,Wyoming,United States,82001
+1440,www.varietycycling.fake.com,Variety Cycling,Company Owner,46-44 Albemarle Street,,London,England,United Kingdom,W1X3SE
+1442,www.accessoriesnetwork.fake.com,Accessories Network,Company Owner,"699bis, rue des Peupliers",,Paris,Seine (Paris),France,75008
+1444,www.remotebicyclespecialists.fake.com,Remote Bicycle Specialists,Company Owner,No. 2000-25080 Beaver Hall Hill,,Quebec,Quebec,Canada,G1R
+1446,www.curbsidesportinggoods.fake.com,Curbside Sporting Goods,Company Owner,25871 North Main Street,,Walnut Creek,California,United States,94596
+1448,www.friendlyneighborhoodbikes.fake.com,Friendly Neighborhood Bikes,Company Owner,Johnson Creek,,Johnson Creek,Wisconsin,United States,53038
+1450,www.guaranteedsalesandservice.fake.com,Guaranteed Sales and Service,Company Owner,Buckeye Factory Shops,,Burbank,Ohio,United States,44214
+1452,www.preferablebikes.fake.com,Preferable Bikes,Company Owner,Level 25,538 Climbing Street,Rhodes,New South Wales,Australia,2138
+1454,www.recommendedbicycles.fake.com,Recommended Bicycles,Company Owner,250 Kingsbridge Garden Circle,,Mississauga,Ontario,Canada,L5B 3V4
+1456,www.sunnyplacebikes.fake.com,Sunny Place Bikes,Company Owner,Horizon Outlet Center,,Vero Beach,Florida,United States,32960
+1458,www.alpineskihouse.fake.com,Alpine Ski House,Company Owner,7505 Laguna Boulevard,,Elk Grove,California,United States,95624
+1460,www.cyclesandscooters.fake.com,Cycles and Scooters,Company Owner,Peach Festival Outlet,,Byron,Georgia,United States,31008
+1462,www.smallbikeaccessoriesshop.fake.com,Small Bike Accessories Shop,Company Owner,Consumer Square,,Cheektowaga,New York,United States,14227
+1464,www.listpricecatalogcompany.fake.com,List Price Catalog Company,Company Owner,Level 25,96 Lytton Rd.,Melbourne,Victoria,Australia,3000
+1466,www.seatsandsaddlescompany.fake.com,Seats and Saddles Company,Company Owner,"5th Floor, 79 Place D'armes",,Kingston,Ontario,Canada,7L
+1468,www.villagetours.fake.com,Village Tours,Company Owner,Newport Shopping Center,,Newport,Kentucky,United States,41071
+1470,www.allcycleshop.fake.com,All Cycle Shop,Company Owner,25111 228th St Sw,,Bothell,Washington,United States,98011
+1472,www.tachometersandaccessories.fake.com,Tachometers and Accessories,Company Owner,Wymbush,,Milton Keynes,England,United Kingdom,MK8 8DF
+1474,www.cyclessalesandrepair.fake.com,Cycles Sales and Repair,Company Owner,"3387, rue Marbeuf",,Bobigny,Seine Saint Denis,France,93000
+1476,www.lowpricecycles.fake.com,Low Price Cycles,Company Owner,Suite 500 995 W. 11th Avenue,,Mississauga,Ontario,Canada,L5A 1H6
+1478,www.metropolitanmanufacturing.fake.com,Metropolitan Manufacturing,Company Owner,Parkway Plaza,,El Cajon,California,United States,92020
+1480,www.orangebicyclecompany.fake.com,Orange Bicycle Company,Company Owner,123 W. Lake Ave.,,Peoria,Illinois,United States,61606
+1482,www.ridingassociates.fake.com,Riding Associates,Company Owner,2528 Meridian E,,Puyallup,Washington,United States,98371
+1484,www.essentialbikeworks.fake.com,Essential Bike Works,Company Owner,"New Millhouse, 2583 Milton Park",,Abingdon,England,United Kingdom,OX14 4SE
+1486,www.ruralmountainbikemart.fake.com,Rural Mountain Bike Mart,Company Owner,"98, rue Montcalm",,Paris,Seine (Paris),France,75019
+1488,www.citycycling.fake.com,City Cycling,Company Owner,6th Floor 5250 Main Street,,Winnipeg,Manitoba,Canada,R3
+1490,www.engineeredbikesystems.fake.com,Engineered Bike Systems,Company Owner,123 Camelia Avenue,,Oxnard,California,United States,93030
+1796,www.professionalcontainersandpackagingco.fake.com,Professional Containers and Packaging Co.,Company Owner,253731 West Bell Road,,Surprise,Arizona,United States,85374
+1798,www.onebikecompany.fake.com,One Bike Company,Company Owner,5 place Ville-Marie,,Montreal,Quebec,Canada,H1Y 2H7
+1800,www.hiatusbiketours.fake.com,Hiatus Bike Tours,Company Owner,"3833, boulevard Beau Marchais",,Paris,Seine (Paris),France,75009
+1802,www.cyclinggoods.fake.com,Cycling Goods,Company Owner,997b Tradescant Road,,London,England,United Kingdom,SW8 1XD
+1804,www.cycleclearance.fake.com,Cycle Clearance,Company Owner,2255 254th Avenue Se,,Albany,Oregon,United States,97321
+1806,www.blackbicyclecompany.fake.com,Black Bicycle Company,Company Owner,Factory Merchants,,Branson,Missouri,United States,65616
+1808,www.transportbikes.fake.com,Transport Bikes,Company Owner,25130 South State Street,,Sandy,Utah,United States,84070
+1810,www.sellersofcycles.fake.com,Sellers of Cycles,Company Owner,700 Se Sunnyside Road,,Clackamas,Oregon,United States,97015
+1812,www.maintenanceandrepairforbicycles.fake.com,Maintenance and Repair for Bicycles,Company Owner,Lone Star Factory,,La Marque,Texas,United States,77568
+1814,www.fitnessdepartmentstores.fake.com,Fitness Department Stores,Company Owner,7750 E Marching Rd,,Scottsdale,Arizona,United States,85257
+1816,www.famousbikeshop.fake.com,Famous Bike Shop,Company Owner,999 West Georgia St.,,Vancouver,Ontario,Canada,V5T 1Y9
+1818,www.eastwardbikeaccessories.fake.com,Eastward Bike Accessories,Company Owner,Level 7,201 Sussex Street,Matraville,New South Wales,Australia,2036
+1820,www.strongmetalmanufacturing.fake.com,Strong Metal Manufacturing,Company Owner,Pyramid Mall,,Ithaca,New York,United States,14850
+1822,www.giftandtoystore.fake.com,Gift and Toy Store,Company Owner,Sports Stores @ Tuscola,,Tuscola,Illinois,United States,61953
+1824,www.majorsportinggoods.fake.com,Major Sporting Goods,Company Owner,9980 S Alma School Road,,Chandler,Arizona,United States,85225
+1826,www.executivediscountstore.fake.com,Executive Discount Store,Company Owner,20500 S.W. 2512th Ave,,Miami,Florida,United States,33127
+1828,www.majorcycling.fake.com,Major Cycling,Company Owner,46990 Viking Way,,Richmond,British Columbia,Canada,V6B 3P7
+1830,www.getawayinn.fake.com,Getaway Inn,Company Owner,"54, avenue des Ternes",,Saint Ouen,Loir et Cher,France,41100
+1832,www.downhillbicyclespecialists.fake.com,Downhill Bicycle Specialists,Company Owner,725a The Arches,,Berks,England,United Kingdom,SL4 1RH
+1834,www.bikeexperts.fake.com,Bike Experts,Company Owner,Lancaster Mall,,Salem,Oregon,United States,97301
+1836,www.extraordinarybikeworks.fake.com,Extraordinary Bike Works,Company Owner,Town East Center,,Mesquite,Texas,United States,75149
+1838,www.valleybicycledistributors.fake.com,Valley Bicycle Distributors,Company Owner,5867 Sunrise Boulevard,,Citrus Heights,California,United States,95610
+1840,www.topsportssupply.fake.com,Top Sports Supply,Company Owner,251420a 170th Street,,Edmonton,Alberta,Canada,T5
+1842,www.racingsalesandservice.fake.com,Racing Sales and Service,Company Owner,"510, avenue de Villiers",,Orleans,Loiret,France,45000
+1844,www.metropolitanbicyclesupply.fake.com,Metropolitan Bicycle Supply,Company Owner,Paramount House,,London,England,United Kingdom,W1N 9FA
+1846,www.honestrepairservice.fake.com,Honest Repair Service,Company Owner,Three Rivers Mall,,Kelso,Washington,United States,98626
+1848,www.designerdepartmentstores.fake.com,Designer Department Stores,Company Owner,Southwest Outlet,,Hillsboro,Texas,United States,76645
+1850,www.wheelgallery.fake.com,Wheel Gallery,Company Owner,9920 Bridgepointe Parkway,,San Mateo,California,United States,94404
+1852,www.topbikemarket.fake.com,Top Bike Market,Company Owner,975 Princess Street,,Kingston,Ontario,Canada,7L
+1854,www.regionbikecompany.fake.com,Region Bike Company,Company Owner,P O Box 72569,,East Brisbane,Queensland,Australia,4169
+1856,www.grownupbikestore.fake.com,Grown-up Bike Store,Company Owner,25192 Princeton Rd.,,Springdale,Ohio,United States,45246
+1858,www.bicyclelinesdistributors.fake.com,Bicycle Lines Distributors,Company Owner,6996 South Lindbergh,,Saint Louis,Missouri,United States,63103
+1860,www.sparklingpaintandfinishes.fake.com,Sparkling Paint and Finishes,Company Owner,San Diego Factory,,San Ysidro,California,United States,92173
+1862,www.racingassociation.fake.com,Racing Association,Company Owner,Parkway City Mall,,Huntsville,Alabama,United States,35801
+1864,www.plasticpartscompany.fake.com,Plastic Parts Company,Company Owner,750 Philip Street,,Waterloo,Ontario,Canada,N2V
+1866,www.gearsandpartscompany.fake.com,Gears and Parts Company,Company Owner,2nd Floor,55 Lavender Street,Milsons Point,New South Wales,Australia,2061
+1868,www.executivegiftstore.fake.com,Executive Gift Store,Company Owner,New Castle Plaza,,New Castle,Indiana,United States,47362
+1870,www.bigcyclemall.fake.com,Big Cycle Mall,Company Owner,9500b E. Central Texas Expressway,,Killeen,Texas,United States,76541
+1872,www.budgetbikecompany.fake.com,Budget Bike Company,Company Owner,Tom Morris,,Millington,Tennessee,United States,38054
+1874,www.eighthbikestore.fake.com,Eighth Bike Store,Company Owner,2500 N Serene Blvd,19th Floor,El Segundo,California,United States,90245
+1876,www.demanddistributors.fake.com,Demand Distributors,Company Owner,25102 Springwater,,Wenatchee,Washington,United States,98801
+1878,www.immediaterepairshop.fake.com,Immediate Repair Shop,Company Owner,9963 Tresser Blvd.,,Stamford,Connecticut,United States,6901
+1880,www.offpricebikecenter.fake.com,Off-Price Bike Center,Company Owner,Postfach 11 09 00,,Berlin,Hessen,Germany,14111
+1882,www.redbicyclecompany.fake.com,Red Bicycle Company,Company Owner,"99, Rue Saint-pierre",,Pnot-Rouge,Quebec,Canada,J1E 2T7
+1884,www.retirementactivitiesassociation.fake.com,Retirement Activities Association,Company Owner,42500 West Park Drive,,Atlanta,Georgia,United States,30308
+1886,www.trendydepartmentstores.fake.com,Trendy Department Stores,Company Owner,25472 Marlay Ave,,Fontana,California,United States,92335
+1888,www.vintagesportboutique.fake.com,Vintage Sport Boutique,Company Owner,22571 South 2500 East,,Idaho Falls,Idaho,United States,83402
+1890,www.travelsports.fake.com,Travel Sports,Company Owner,755 Nw Grandstand,,Issaquah,Washington,United States,98027
+1892,www.westsidemart.fake.com,West Side Mart,Company Owner,251 The Metro Center,,Wokingham,England,United Kingdom,RG41 1QW
+1894,www.thebikeoutlet.fake.com,The Bike Outlet,Company Owner,"22, rue du Départ",,Pantin,Seine Saint Denis,France,93500
+1896,www.tenthbikestore.fake.com,Tenth Bike Store,Company Owner,Depot 80,,Sillery,Quebec,Canada,G1T
+1898,www.valuablebikepartscompany.fake.com,Valuable Bike Parts Company,Company Owner,Belz Factory Outlet,,Orlando,Florida,United States,32804
+1900,www.funtimesclub.fake.com,Fun Times Club,Company Owner,8525 South Parker Road,,Parker,Colorado,United States,80138
+1902,www.chainandchaintooldistributions.fake.com,Chain and Chain Tool Distributions,Company Owner,Factory Stores Of America,,Smithfield,North Carolina,United States,27577
+1904,www.mobileoutlet.fake.com,Mobile Outlet,Company Owner,Walnut Hill Plaza,,Woonsocket,Rhode Island,United States,2895
+1906,www.regionalcycleshop.fake.com,Regional Cycle Shop,Company Owner,Karl Liebknecht str 399,Leiter der Abteilung,Berlin,Hessen,Germany,14111
+1908,www.ruralbicyclesupply.fake.com,Rural Bicycle Supply,Company Owner,Suite #9902,,North York,Ontario,Canada,M4C 4K6
+1910,www.wingtiptoys.fake.com,Wingtip Toys,Company Owner,755 Columbia Ctr Blvd,,Kennewick,Washington,United States,99337
+1912,www.thecyclestore.fake.com,The Cycle Store,Company Owner,The Corner Shopping Center,,Falls Church,Virginia,United States,22046
+1914,www.educationalservices.fake.com,Educational Services,Company Owner,Wallstr 244,,Saarbrücken,Saarland,Germany,66001
+1916,www.activelifetoys.fake.com,Active Life Toys,Company Owner,55 Standish Court,,Mississauga,Ontario,Canada,L5B 3V4
+1918,www.simplebikeparts.fake.com,Simple Bike Parts,Company Owner,Silver Sands Factory Outlet,,Destin,Florida,United States,32541
+1920,www.timelyshippingservice.fake.com,Timely Shipping Service,Company Owner,Viejas Outlet Center,,Alpine,California,United States,91901
+1922,www.acycleshop.fake.com,A Cycle Shop,Company Owner,Heritage Mall,,Albany,Oregon,United States,97321
+1924,www.bikeproductsandaccessories.fake.com,Bike Products and Accessories,Company Owner,Regency Hilltop Shopping Cntr,,Virginia Beach,Virginia,United States,23451
+1926,www.fitnesstoys.fake.com,Fitness Toys,Company Owner,Auf Der Steige 1000,,Berlin,Hamburg,Germany,14111
+1928,www.quickpartsandservice.fake.com,Quick Parts and Service,Company Owner,"99954 Boul. Laurier, Local 060, Place",,Sainte-Foy,Quebec,Canada,G1W
+1930,www.reliablebrakesystems.fake.com,Reliable Brake Systems,Company Owner,770 South Point Dr,,Memphis,Tennessee,United States,38103
+1932,www.thriftypartsandsales.fake.com,Thrifty Parts and Sales,Company Owner,Oxnard Outlet,,Oxnard,California,United States,93030
+1934,www.atypicalbikeshop.fake.com,A Typical Bike Shop,Company Owner,"One Dancing, Rr No. 25",Box 8033,Round Rock,Texas,United States,78664
+1936,www.activetransportinc.fake.com,Active Transport Inc.,Company Owner,225200 Miles Ave.,,North Randall,Ohio,United States,44128
+1938,www.cyclepartsandaccessories.fake.com,Cycle Parts and Accessories,Company Owner,Level 99,12 South 10th Avenue,Melbourne,Victoria,Australia,3000
+1940,www.fastenersboltsoutlet.fake.com,Fasteners & Bolts Outlet,Company Owner,9960 King Street E.,,Toronto,Ontario,Canada,M4B 1V5
+1942,www.functionalstorenorth.fake.com,Functional Store North,Company Owner,650 E Altamonte Dr,,Altamonte Springs,Florida,United States,32701
+1944,www.quantitydiscounts.fake.com,Quantity Discounts,Company Owner,Natomas Marketplace,,Sacramento,California,United States,95814
+1946,www.swiftcycles.fake.com,Swift Cycles,Company Owner,25500 Old Spanish Trail,,Houston,Texas,United States,77003
+1948,www.classiccyclestore.fake.com,Classic Cycle Store,Company Owner,630 Oldgate Lane,,Milford,Connecticut,United States,6460
+1950,www.helpfulsalesandrepairservice.fake.com,Helpful Sales and Repair Service ,Company Owner,Licensing Account,,Seaford,Victoria,Australia,3198
+1952,www.largebikeshop.fake.com,Large Bike Shop,Company Owner,600 Boul. Rene-levesque Ouest,,Montreal,Quebec,Canada,H1Y 2H7
+1954,www.recreationsupplies.fake.com,Recreation Supplies,Company Owner,8789 S.W. 2517 Ave.,,Kendall,Florida,United States,33143
+1956,www.wirebasketsandparts.fake.com,Wire Baskets and Parts,Company Owner,Mall Of Orange,,Orange,California,United States,92867
+1958,www.ultimatebicyclecompany.fake.com,Ultimate Bicycle Company,Company Owner,"12, rue Lafayette",,Morangis,Essonne,France,91420
+1960,www.sportsstore.fake.com,Sports Store,Company Owner,"Internet House, 3399 Science Park",,Cambridge,England,United Kingdom,CB4 4BZ
+1962,www.metropolitanequipment.fake.com,Metropolitan Equipment,Company Owner,"88, avenue de l´ Union Centrale",,Paris,Seine (Paris),France,75012
+1964,www.extendedtours.fake.com,Extended Tours,Company Owner,"7 Garden House Cloisters, 8 Batters",,London,England,United Kingdom,SW8 4BG
+1966,www.convenientsalesandservice.fake.com,Convenient Sales and Service,Company Owner,950 Gateway Street,,Springfield,Oregon,United States,97477
+1968,www.solidbikeparts.fake.com,Solid Bike Parts,Company Owner,Lincoln Square,,Arlington,Texas,United States,76010
+1970,www.permanentfinishproducts.fake.com,Permanent Finish Products,Company Owner,62500 Neil Road,,Reno,Nevada,United States,89502
+1972,www.mercantileoutlet.fake.com,Mercantile Outlet,Company Owner,2520 Flanders Road,,Toronto,Ontario,Canada,M4B 1V4
+1974,www.linksworks.fake.com,Links Works,Company Owner,Helsenbergbogen 6,,Ascheim,Hamburg,Germany,86171
+1976,www.exhilaratingcycles.fake.com,Exhilarating Cycles,Company Owner,Kensington Valley Shops,,Howell,Michigan,United States,48843
+1978,www.exercisecenter.fake.com,Exercise Center,Company Owner,Stevens Creek Shopping Center,,San Jose,California,United States,95112
+1980,www.greatbicyclesupply.fake.com,Great Bicycle Supply,Company Owner,455 256th St.,,Moline,Illinois,United States,61265
+1982,www.mailorderoutlet.fake.com,Mail-Order Outlet,Company Owner,409 S. Main Ste. 25,,Ellensburg,Washington,United States,98926
+1984,www.nearbycycleshop.fake.com,Nearby Cycle Shop,Company Owner,Burgess Hill,Edward Way,West Sussex,England,United Kingdom,RH15 9UD
+1986,www.recreationtoystore.fake.com,Recreation Toy Store,Company Owner,"39, avenue des Laurentides",,Paris La Defense,Hauts de Seine,France,92081
+1988,www.retreatinn.fake.com,Retreat Inn,Company Owner,Suite 2502 410 Albert Street,,Waterloo,Ontario,Canada,N2V
+1990,www.technicalpartsmanufacturing.fake.com,Technical Parts Manufacturing,Company Owner,Ontario Mills,,Ontario,California,United States,91764
+1992,www.totesbasketscompany.fake.com,Totes & Baskets Company,Company Owner,72540 Blanco Rd.,,San Antonio,Texas,United States,78204
+1994,www.worldofbikes.fake.com,World of Bikes,Company Owner,660 Lindbergh,,Saint Louis,Missouri,United States,63103
+2051,www.abicycleassociation.fake.com,A Bicycle Association,Company Owner,6405 Erie Blvd. Hills Plaza,,De Witt,New York,United States,13214
