@@ -136,7 +136,7 @@ Steps to create and configure an ETL Pipeline for Companies and Customers
    - Flexibility of choosing whether to replicate an entire database or individual tables and Mirroring will automatically keep your data in sync. Once set up, data will continuously replicate into the OneLake for analytics consumption.
    - Mirroring in Fabric provides an easy experience to speed the time-to-value for insights and decisions
 
-### Steps to configure mirroring in MS Fabric
+#### Steps to configure mirroring in MS Fabric
 
 - Go to your Fabric Enabled Workspace and Click on New Item
 
