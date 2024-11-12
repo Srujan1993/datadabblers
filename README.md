@@ -233,7 +233,7 @@ To implement this architecture effectively, we have created custom schemas withi
 
 - we have used Spark Notebooks within Microsoft Fabric for Data Processing within the Medallion Architecture. 
 
-### Bronze Layer in Medallion Architecture
+#### Bronze Layer in Medallion Architecture
 
 - Within Bronze Layer , we created a fabric notebook and used PySpark code to read crm and social review data from lakehouse files and mirrored tables brought as shortcuts in Lakehouse default schema as input sources
 - This data is then converted into our bronze schema format and loaded as delta lake tables
@@ -241,7 +241,7 @@ To implement this architecture effectively, we have created custom schemas withi
 
 ![image](https://github.com/Srujan1993/datadabblers/blob/555478be204da46d782c3da4d9ddaeacf769720c/MicrosoftFabric/DataTransformation/assets/01_Lakehouse_Medallion_Bronze_Schema.png)
 
-### Silver Layer in Medallion Architecture
+#### Silver Layer in Medallion Architecture
 
 - Within Silver Layer , we created two fabric notebooks which implemented data cleansing , data enrichement and transformation
 - This notebook : [Lakehouse_Transformation_Medallion_Silver_Layer_CRM_ERP_Data.ipynb](https://github.com/Srujan1993/datadabblers/blob/2e53193f597bb89d5f8fe25527387ed9054d7c01/MicrosoftFabric/DataTransformation/Notebooks/Silver/Lakehouse_Transformation_Medallion_Silver_Layer_CRM_ERP_Data.ipynb) is used for data cleaning and data transformation on raw bronze data to generate optimised version of delta lake tables containing ERP and CRM tables such as products, sales, customers etc
@@ -249,7 +249,7 @@ To implement this architecture effectively, we have created custom schemas withi
 
 ![image](https://github.com/Srujan1993/datadabblers/blob/2e53193f597bb89d5f8fe25527387ed9054d7c01/MicrosoftFabric/DataTransformation/assets/02_Lakehouse_Medallion_Silver_Schema.png)
 
-### Gold Layer in Medallion Architecture
+#### Gold Layer in Medallion Architecture
 
 - Within Gold Layer Layer , we created three fabric notebooks which implemented for dimemsional data modelling generating dim , fact tables using dataframes and Azure Open AI LLMs
 - Notebook 1
