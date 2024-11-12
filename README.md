@@ -23,9 +23,9 @@ Video file to be uploaded
 
 ## Components used in the Project
 
-* **Data Sources** : HubSpot CRM , ERP data on Azure SQL Database , Social Media Ratings and Reviews File from AWS S3
-* **Components/Features used within Microsoft Fabric** : Shortcuts , Mirroring , Lakehouse , Data Pipeline , Spark Notebooks , Power BI
-* **Azure Components** : Azure PaaS SQL Database , Azure Open AI
+* **Data Sources** : HubSpot CRM, ERP data on Azure SQL Database , Social Media Ratings and Reviews File from AWS S3
+* **Components/Features used within Microsoft Fabric** : Shortcuts, Mirroring, Lakehouse, Data Pipeline, Spark Notebooks, Power BI
+* **Azure Components** : Azure PaaS SQL Database, Azure Open AI
 
 ## Prerequisites
 
@@ -60,7 +60,7 @@ Video file to be uploaded
   
 ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/Assets/03-Create_Fabric_Lakehouse_Item.png)
 
-- A new lakehouse creation window opens , provide details accordingly
+- A new lakehouse creation window opens, provide details accordingly
 
 ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/Assets/04_Fabric_Lakehouse_Creation_Window.png)
   
