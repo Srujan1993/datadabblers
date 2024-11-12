@@ -215,10 +215,14 @@ Set up bucket policies to grant Fabric Lakehouse permission to access the S3 buc
 
 2. Fabric Lakehouse Shortcut Setup:
 	- In the Fabric Lakehouse environment, use the shortcut feature to create a connection to the S3 bucket where the social review data is stored.
-	- Click on Files → Create Shortcut
+	- Click on Files → Create Shortcut within Lakehouse
+          ![image](https://github.com/Srujan1993/datadabblers/blob/e2bca1539b85bf857ef33ec60c29de48d52c4f71/MicrosoftFabric/DataIngestion/Shortcut/assets/05a_create_shortcut.png)
 	- On clicking new shortcut option, a shortcut wizard opens up
+          ![image](https://github.com/Srujan1993/datadabblers/blob/e2bca1539b85bf857ef33ec60c29de48d52c4f71/MicrosoftFabric/DataIngestion/Shortcut/assets/05b_select_s3_bucket_shortcut.png)
 	- Ensure that the connection setup uses the access keys configured on the S3 bucket, and validate the connection by testing access to the sample social review data file
+          ![image](https://github.com/Srujan1993/datadabblers/blob/e2bca1539b85bf857ef33ec60c29de48d52c4f71/MicrosoftFabric/DataIngestion/Shortcut/assets/05c_short_cut_setting_in_Fabric.png)
 	- Verify that the shortcut connection enables data reading and ingestion workflows within the Lakehouse.
+          
 
 ## Data Transformation
 
