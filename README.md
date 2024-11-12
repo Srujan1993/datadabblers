@@ -54,21 +54,21 @@ Video file to be uploaded
 
 - Click on New Fabric Item option
   
-![image](https://github.com/Srujan1993/datadabblers/blob/d1adc4b2b13a547ac7f770dc4ecfe131ab3dfe2a/MicrosoftFabric/Assets/02-Fabric_New_Item.png)
+![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/Assets/02-Fabric_New_Item.png)
 
 - Search for Fabric Lakehouse Option and click on it
   
-![image](https://github.com/Srujan1993/datadabblers/blob/d1adc4b2b13a547ac7f770dc4ecfe131ab3dfe2a/MicrosoftFabric/Assets/03-Create_Fabric_Lakehouse_Item.png)
+![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/Assets/03-Create_Fabric_Lakehouse_Item.png)
 
 - A new lakehouse creation window opens , provide details accordingly
 
-![image](https://github.com/Srujan1993/datadabblers/blob/d1adc4b2b13a547ac7f770dc4ecfe131ab3dfe2a/MicrosoftFabric/Assets/04_Fabric_Lakehouse_Creation_Window.png)
+![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/Assets/04_Fabric_Lakehouse_Creation_Window.png)
   
 - A lakehouse when created will have a semantic model and SQL analytics endpoint. We have named our Lakehouse as AdventureWorks_Lakehouse
   
-![image](https://github.com/Srujan1993/datadabblers/blob/ac87948d95618bf965237873c2801a5774296641/MicrosoftFabric/Assets/05_Create_Fabric_Lakehouse.png)
+![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/Assets/05_Create_Fabric_Lakehouse.png)
 
-
+ 
 - We will be detailing the implementation steps in three phases
 
   - **Data Ingestion**
