@@ -160,23 +160,23 @@ Steps to create and configure an ETL Pipeline for Companies and Customers
 
 - Go to your Fabric Enabled Workspace and Click on New Item
 
-  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/03-Create_New_Item_In_Fabric.png)
+  ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Mirroring/assets/03-Create_New_Item_In_Fabric.png)
   
 - Search for Mirrored Azure SQL Database Option in New Item Window
   
-  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/04-Select_Mirror_Azure_SQL_Database_Option.png)
+  ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Mirroring/assets/04-Select_Mirror_Azure_SQL_Database_Option.png)
   
 - Once you click in the Mirrored Azure SQL Database, a new screen will pop up asking for the database connection to be setup. I have already setup the connection, so you are seeing one under one lake data hub
   
-  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/05-Database_Connection_Window.png)
+  ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Mirroring/assets/05-Database_Connection_Window.png)
   
 - On clicking Azure SQL Database, Connection window opens where you need to provide SQL Database Connection String Details and a connection name.
   
-  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/06-Database_Connection_Settings_Window.png)
+  ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Mirroring/assets/06-Database_Connection_Settings_Window.png)
   
 - Once connection is established, window will be opened with all the tables associated with your database
   
-  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/07-Mirrored_Azure_SQL_Database_Screen.png)
+  ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Mirroring/assets/07-Mirrored_Azure_SQL_Database_Screen.png)
   
 - Choose the relevant tables which you want to be mirrored into Microsoft Fabric One Lake
   
@@ -193,11 +193,11 @@ Steps to create and configure an ETL Pipeline for Companies and Customers
   - Sales.SpecialOffer
 - Once you click on connect, mirroring replication starts and it redirects to this window
 
-  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/08-Monitoring_Mirrored_Replication_Azure_SQL_Database.png)
+  ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Mirroring/assets/08-Monitoring_Mirrored_Replication_Azure_SQL_Database.png)
   
 - When mirroring is successful, these three items are created in Fabric Workspace
 
-  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/09-Created_Mirrored_Database_Screnshot.png)
+  ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Mirroring/assets/09-Created_Mirrored_Database_Screnshot.png)
 
    - Mirroring manages the replication of data into One Lake and conversion to Parquet, in an analytics-ready format. This enables downstream 
      scenarios like data engineering, data science, and more.
@@ -216,13 +216,13 @@ Set up bucket policies to grant Fabric Lakehouse permission to access the S3 buc
 2. Fabric Lakehouse Shortcut Setup:
 	- In the Fabric Lakehouse environment, use the shortcut feature to create a connection to the S3 bucket where the social review data is stored.
 	- Click on Files → Create Shortcut within Lakehouse
-          ![image](https://github.com/Srujan1993/datadabblers/blob/e2bca1539b85bf857ef33ec60c29de48d52c4f71/MicrosoftFabric/DataIngestion/Shortcut/assets/05a_create_shortcut.png)
+          ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/05a_create_shortcut.png)
 	- On clicking new shortcut option, a shortcut wizard opens up
-          ![image](https://github.com/Srujan1993/datadabblers/blob/e2bca1539b85bf857ef33ec60c29de48d52c4f71/MicrosoftFabric/DataIngestion/Shortcut/assets/05b_select_s3_bucket_shortcut.png)
+          ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/05b_select_s3_bucket_shortcut.png)
 	- Ensure that the connection setup uses the access keys configured on the S3 bucket, and validate the connection by testing access to the sample social review data file
-          ![image](https://github.com/Srujan1993/datadabblers/blob/e2bca1539b85bf857ef33ec60c29de48d52c4f71/MicrosoftFabric/DataIngestion/Shortcut/assets/05c_short_cut_setting_in_Fabric.png)
+          ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/05c_short_cut_setting_in_Fabric.png)
 	- Verify that the shortcut connection enables data reading and ingestion workflows within the Lakehouse.
-          ![image](https://github.com/Srujan1993/datadabblers/blob/4a79d5e15a06dd4dafd36bfcb0cc556417d0bb36/MicrosoftFabric/DataIngestion/Shortcut/assets/06_created_file_through_shortcut_lakehouse.png)
+          ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataIngestion/Shortcut/assets/06_created_file_through_shortcut_lakehouse.png)
           
 
 ## Data Transformation
@@ -264,7 +264,7 @@ To implement this architecture effectively, we have created custom schemas withi
 - This data is then converted into our bronze schema format and loaded as delta lake tables
 - Link to Notebook: [Lakehouse_Ingestion_Medallion_Bronze_Layer](https://github.com/Srujan1993/datadabblers/blob/2e53193f597bb89d5f8fe25527387ed9054d7c01/MicrosoftFabric/DataTransformation/Notebooks/Bronze/Lakehouse_Ingestion_Medallion_Bronze_Layer.ipynb)
 
-![image](https://github.com/Srujan1993/datadabblers/blob/555478be204da46d782c3da4d9ddaeacf769720c/MicrosoftFabric/DataTransformation/assets/01_Lakehouse_Medallion_Bronze_Schema.png)
+![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataTransformation/assets/01_Lakehouse_Medallion_Bronze_Schema.png)
 
 #### Silver Layer in Medallion Architecture
 
@@ -272,7 +272,7 @@ To implement this architecture effectively, we have created custom schemas withi
 - This notebook : [Lakehouse_Transformation_Medallion_Silver_Layer_CRM_ERP_Data.ipynb](https://github.com/Srujan1993/datadabblers/blob/2e53193f597bb89d5f8fe25527387ed9054d7c01/MicrosoftFabric/DataTransformation/Notebooks/Silver/Lakehouse_Transformation_Medallion_Silver_Layer_CRM_ERP_Data.ipynb) is used for data cleaning and data transformation on raw bronze data to generate optimised version of delta lake tables containing ERP and CRM tables such as products, sales, customers etc
 - This notebook : [Lakehouse_Transformation_Medallion_Silver_Layer_SocialReview_Data.ipynb](https://github.com/Srujan1993/datadabblers/blob/2e53193f597bb89d5f8fe25527387ed9054d7c01/MicrosoftFabric/DataTransformation/Notebooks/Silver/Lakehouse_Transformation_Medallion_Silver_Layer_SocialReview_Data.ipynb)  reads the data from social twitter reviews table in bronze, and with the use of Azure OpenAI we extract/estimate the item being reviewed from the review text and add a Product Model column to reflect the item in review and provide a key to join to the product table.
 
-![image](https://github.com/Srujan1993/datadabblers/blob/2e53193f597bb89d5f8fe25527387ed9054d7c01/MicrosoftFabric/DataTransformation/assets/02_Lakehouse_Medallion_Silver_Schema.png)
+![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataTransformation/assets/02_Lakehouse_Medallion_Silver_Schema.png)
 
 #### Gold Layer in Medallion Architecture
 
@@ -294,7 +294,7 @@ To implement this architecture effectively, we have created custom schemas withi
         are stored as individual values in fact ai sales analysis table
   - Link to Notebook : [Lakehouse_Medallion_Gold_Layer_Fact_Sales_Analysis_with_LLM.ipynb](https://github.com/Srujan1993/datadabblers/blob/2e53193f597bb89d5f8fe25527387ed9054d7c01/MicrosoftFabric/DataTransformation/Notebooks/Gold/Lakehouse_Medallion_Gold_Layer_Fact_Sales_Analysis_with_LLM.ipynb)
 
-  ![image](https://github.com/Srujan1993/datadabblers/blob/2e53193f597bb89d5f8fe25527387ed9054d7c01/MicrosoftFabric/DataTransformation/assets/03_Lakehouse_Medallion_Gold_Schema.png) 
+  ![image](https://github.com/Srujan1993/datadabblers/blob/main/MicrosoftFabric/DataTransformation/assets/03_Lakehouse_Medallion_Gold_Schema.png) 
 
 ## Data Presentation
 
