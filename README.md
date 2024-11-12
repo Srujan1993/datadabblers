@@ -44,14 +44,21 @@ Video file to be uploaded
 
 # Detailed Project Setup in Microsoft Fabric
 
-1. Create a Fabric enabled workspace in [app.powerbi.com](http://app.powerbi.com)
+- Create a Fabric enabled workspace in [app.powerbi.com](http://app.powerbi.com)
 
-2. Create a Fabric Lakehouse within the Fabric Workspace. We will be bringing the data into Lakehouse to perform insights using Medallion Architecture. A lakehouse when created will have a semantic model and SQL
+- Create a Fabric Lakehouse within the Fabric Workspace. We will be bringing the data into Lakehouse to perform insights using Medallion Architecture. A lakehouse when created will have a semantic model and SQL
 analytics endpoint. We have named our Lakehouse as AdventureWorks_Lakehouse
 
-3. As part of our use case, we need to bring the data from Hubspot CRM, Azure SQL Database, and an AWS S3 holding the social media reviews file
+- We will be detailing the steps in three phases
 
-## Data Ingestion - HubSpot CRM to Microsoft Fabric
+  - **Data Ingestion**
+  - **Data Transformation**
+  - **Data Presentaion**
+    
+
+## Data Ingestion
+
+### Data Ingestion - HubSpot CRM to Microsoft Fabric
 
 In this project, we used HubSpot to store Companies and Contacts from the Adventure Works database in a separate system, simulating a typical enterprise setup.
 
@@ -122,7 +129,7 @@ Steps to create and configure an ETL Pipeline for Companies and Customers
 - Copy activity is used within the ETL pipeline to copy files from Hubspot CRM to Lakehouse in our Fabric Workspace
 - Once the pipeline runs successfully, files are pushed successfully to Lakehouse Files explorer
 
-## Data Ingestion - Mirroring ERP Data to Microsoft Fabric
+### Data Ingestion - Mirroring ERP Data to Microsoft Fabric
 
    - We use mirroring feature in fabric to load ERP data from Azure SQL Database into Microsoft Fabric One Lake showcasing the advantage of avoiding complex ETL for bringing the data into Fabric
    - Mirroring in Fabric is a fully managed service, so you don't have to worry about hosting, maintaining, or managing replication of the mirrored connection.
@@ -177,7 +184,7 @@ Steps to create and configure an ETL Pipeline for Companies and Customers
    - A SQL Analytics Endpoint
    - A Default Semantic Model
 
-### Load Social Reviews Data into Microsoft Fabric using Shortcuts
+### Data Ingestion - Load Social Reviews Data into Microsoft Fabric using Shortcuts
 We have used Fabric Shortcuts feature to bring the data into Fabric Lakehouse without replicating data but using a pointer reference to the same. To establish a connection (or shortcut) between the Amazon S3 bucket and Fabric Lakehouse, the following configurations is required:
      
 1. Amazon S3 Permissions:
@@ -193,7 +200,7 @@ Set up bucket policies to grant Fabric Lakehouse permission to access the S3 buc
 	- Ensure that the connection setup uses the access keys configured on the S3 bucket, and validate the connection by testing access to the sample social review data file
 	- Verify that the shortcut connection enables data reading and ingestion workflows within the Lakehouse.
 
-## Data Processing through Medallion Architecture
+## Data Transformation
 
 Now that we have successfully ingested data into the Microsoft Fabric One Lake, our next crucial step is to logically organize this data into distinct categories:
 - Raw data
@@ -202,7 +209,7 @@ Now that we have successfully ingested data into the Microsoft Fabric One Lake, 
 
 This systematic organization is essential for efficient data management and utilization.
 
-## Lakehouse Medallion Architecture
+### Lakehouse Medallion Architecture
 
 To achieve this structured approach, we have implemented the Lakehouse Medallion Architecture on our data. 
 
@@ -214,7 +221,7 @@ The Medallion architecture is composed of three distinct layers or zones, each r
 
 Each successive layer in this architecture indicates an increase in the quality and usability of the data stored in the lakehouse, with higher levels representing more refined and valuable information.
 
-## Implementation of Lakehouse Medallion Architecture
+### Implementation of Lakehouse Medallion Architecture
 
 To implement this architecture effectively, we have created custom schemas within our lakehouse for each layer:
 
@@ -256,11 +263,11 @@ To implement this architecture effectively, we have created custom schemas withi
       - Identify critical inputs or specific product feedback that could drive product improvements or marketing decisions.
   - Link to Notebook : [Lakehouse_Medallion_Gold_Layer_Fact_SocialReviewAnalysis_with_LLM.ipynb](https://github.com/Srujan1993/datadabblers/blob/2e53193f597bb89d5f8fe25527387ed9054d7c01/MicrosoftFabric/DataTransformation/Notebooks/Gold/Lakehouse_Medallion_Gold_Layer_Fact_SocialReviewAnalysis_with_LLM.ipynb)
 - Notebook 3
-      - This notebook uses the dim and fact tables data created within in the gold layer to come up with aggregated data like sales analyis by product model , prouct categories , Territorial Sales , Sales by Seller Type
-      - Utilising Azure OpenAI to summarise the sales aggregated data in the gold layer. Utilising multiple calls to the LLM we compare previous months and years as well as analysing trends and anomalies. Key comparisons are stored as individual values in fact ai sales analysis table.
-      - Evaluating the results from the LLM calls in the previous step, we utilise the LLM again to extract insights and understand why sales performed as they did. Combining with sales data a product model category level, territories, customer type and social reviews analysis, the LLM was able to identify reasons. Key insights 
+  - This notebook uses the dim and fact tables data created within in the gold layer to come up with aggregated data like sales analyis by product model , prouct categories , Territorial Sales , Sales by Seller Type
+  - Utilising Azure OpenAI to summarise the sales aggregated data in the gold layer. Utilising multiple calls to the LLM we compare previous months and years as well as analysing trends and anomalies. Key comparisons are stored as individual values in fact ai sales analysis table.
+  - Evaluating the results from the LLM calls in the previous step, we utilise the LLM again to extract insights and understand why sales performed as they did. Combining with sales data a product model category level, territories, customer type and social reviews analysis, the LLM was able to identify reasons. Key insights 
         are stored as individual values in fact ai sales analysis table
-      - Link to Notebook : [Lakehouse_Medallion_Gold_Layer_Fact_Sales_Analysis_with_LLM.ipynb](https://github.com/Srujan1993/datadabblers/blob/2e53193f597bb89d5f8fe25527387ed9054d7c01/MicrosoftFabric/DataTransformation/Notebooks/Gold/Lakehouse_Medallion_Gold_Layer_Fact_Sales_Analysis_with_LLM.ipynb)
+  - Link to Notebook : [Lakehouse_Medallion_Gold_Layer_Fact_Sales_Analysis_with_LLM.ipynb](https://github.com/Srujan1993/datadabblers/blob/2e53193f597bb89d5f8fe25527387ed9054d7c01/MicrosoftFabric/DataTransformation/Notebooks/Gold/Lakehouse_Medallion_Gold_Layer_Fact_Sales_Analysis_with_LLM.ipynb)
 
   ![image](https://github.com/Srujan1993/datadabblers/blob/2e53193f597bb89d5f8fe25527387ed9054d7c01/MicrosoftFabric/DataTransformation/assets/03_Lakehouse_Medallion_Gold_Schema.png) 
 
