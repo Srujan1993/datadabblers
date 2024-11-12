@@ -52,8 +52,6 @@ Video file to be uploaded
 
 - We will be bringing the data into Lakehouse to perform insights using Medallion Architecture.
 
-- A lakehouse when created will have a semantic model and SQL analytics endpoint. We have named our Lakehouse as AdventureWorks_Lakehouse
-
 - Click on New Fabric Item option
   
 ![image](https://github.com/Srujan1993/datadabblers/blob/d1adc4b2b13a547ac7f770dc4ecfe131ab3dfe2a/MicrosoftFabric/Assets/02-Fabric_New_Item.png)
@@ -66,10 +64,12 @@ Video file to be uploaded
 
 ![image](https://github.com/Srujan1993/datadabblers/blob/d1adc4b2b13a547ac7f770dc4ecfe131ab3dfe2a/MicrosoftFabric/Assets/04_Fabric_Lakehouse_Creation_Window.png)
   
-- Create a Fabric Lakehouse within the Fabric Workspace. We will be bringing the data into Lakehouse to perform insights using Medallion Architecture. A lakehouse when created will have a semantic model and SQL
-analytics endpoint. We have named our Lakehouse as AdventureWorks_Lakehouse
+- A lakehouse when created will have a semantic model and SQL analytics endpoint. We have named our Lakehouse as AdventureWorks_Lakehouse
+  
+![image](https://github.com/Srujan1993/datadabblers/blob/ac87948d95618bf965237873c2801a5774296641/MicrosoftFabric/Assets/05_Create_Fabric_Lakehouse.png)
 
-- We will be detailing the steps in three phases
+
+- We will be detailing the implementation steps in three phases
 
   - **Data Ingestion**
   - **Data Transformation**
