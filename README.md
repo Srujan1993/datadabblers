@@ -296,13 +296,15 @@ To implement this architecture effectively, we have created custom schemas withi
 
   ![image](https://github.com/Srujan1993/datadabblers/blob/2e53193f597bb89d5f8fe25527387ed9054d7c01/MicrosoftFabric/DataTransformation/assets/03_Lakehouse_Medallion_Gold_Schema.png) 
 
-## Semantic Model
+## Data Presentation
+
+### Semantic Model
 
 A Semantic Model is used to build a business layer with standardised metrics and relationships, establishing a single source of truth for reporting and querying. In this case it is used as the underlying model for the PowerBI report. 
  
 ![image](https://github.com/Srujan1993/datadabblers/blob/35af8301abd555faae22dd5256efe0087bdf8810/MicrosoftFabric/DataPresentation/PowerBIReporting/assets/Full%20Semantic%20Model.png)
 
-### Creating a Semantic Model
+#### Creating a Semantic Model
 
 - From your Fabric Workspace, click on your LakeHouse and click New semantic model
 - Enter a name: SalesSemanticModel
@@ -312,7 +314,7 @@ A Semantic Model is used to build a business layer with standardised metrics and
  
 ![image](https://github.com/Srujan1993/datadabblers/blob/35af8301abd555faae22dd5256efe0087bdf8810/MicrosoftFabric/DataPresentation/PowerBIReporting/assets/Create%20Semantic%20Model.png)
 
-### Managing Relationships
+#### Managing Relationships
 - Once you have created your model, navigate to the Open Data Model visual editor.
 - From here you can create relationships between the tables you have added to your model.
 - To create a relationship, drag the column from one table to the corresponding column in the second table, in this case we are linking the OrderDate from the fact_sales table to the Date in dim_calendar table.
@@ -324,7 +326,7 @@ A Semantic Model is used to build a business layer with standardised metrics and
 
 ![image](https://github.com/Srujan1993/datadabblers/blob/35af8301abd555faae22dd5256efe0087bdf8810/MicrosoftFabric/DataPresentation/PowerBIReporting/assets/Manage%20Semantic%20Model%20Relationships.png)
 
-## PowerBI Report
+### PowerBI Report
 
 The final product of this project is a PowerBI report that presents the AI-generated content and the underlying data in a clear and concise manner. The main components of the report include:
 
