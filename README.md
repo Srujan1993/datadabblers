@@ -222,6 +222,7 @@ Set up bucket policies to grant Fabric Lakehouse permission to access the S3 buc
 	- Ensure that the connection setup uses the access keys configured on the S3 bucket, and validate the connection by testing access to the sample social review data file
           ![image](https://github.com/Srujan1993/datadabblers/blob/e2bca1539b85bf857ef33ec60c29de48d52c4f71/MicrosoftFabric/DataIngestion/Shortcut/assets/05c_short_cut_setting_in_Fabric.png)
 	- Verify that the shortcut connection enables data reading and ingestion workflows within the Lakehouse.
+          ![image](https://github.com/Srujan1993/datadabblers/blob/4a79d5e15a06dd4dafd36bfcb0cc556417d0bb36/MicrosoftFabric/DataIngestion/Shortcut/assets/06_created_file_through_shortcut_lakehouse.png)
           
 
 ## Data Transformation
