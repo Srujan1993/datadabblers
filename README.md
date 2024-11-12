@@ -228,9 +228,36 @@ To implement this architecture effectively, we have created custom schemas withi
 
 ### Bronze Layer in Medallion Architecture
 
+- Within Bronze Layer , we created a fabric notebook and used PySpark code to read crm and social review data from lakehouse files and mirrored tables brought as shortcuts in Lakehouse default schema as input sources
+- This data is then converted into our bronze schema format and loaded as delta lake tables
+- Here is the link to Fabric Notebook
+- Update screenshot of Bronze Schema
+
 ### Silver Layer in Medallion Architecture
 
+- Within Silver Layer , we created two fabric notebooks which implemented data cleansing , data enrichement and transformation
+- This notebook : [notebook link] is used for data cleaning and data transformation on raw bronze data to generate optimised version of delta lake tables containing ERP and CRM tables such as products, sales, customers etc
+- This notebook : [notebook_link] reads the data from social twitter reviews table in bronze, and with the use of Azure OpenAI we extract/estimate the item being reviewed from the review text and add a Product Model column to reflect the item in review and provide a key to join to the product table.
+- Update screenshot of Silver Schema
+
 ### Gold Layer in Medallion Architecture
+
+- Within Gold Layer Layer , we created three fabric notebooks which implemented for dimemsional data modelling generating dim , fact tables using dataframes and Azure Open AI LLMs
+- Notebook 1
+  - Dimension and Fact tables are created for Products and Sales data using PySpark Notebooks and are loaded as delta lake tables under Gold Schema in the Lakehouse
+  - Dimension tables are created for Products , Customer and Companies where as Fact table is created for Sales data containing details related to Sales along with territorial information and for sales reason
+- Notebook 2
+  - This notebook utilises Azure OpenAI to evaluate the reviews from social media sites. The LLM is used to :
+      - Summarise the overall sentiment of customer reviews, whether positive, negative, or neutral.
+      - Extract key insights and themes that stand out, giving us a clearer picture of what customers care about most.
+      - Identify critical inputs or specific product feedback that could drive product improvements or marketing decisions.
+- Notebook 3
+      - This notebook uses the dim and fact tables data created within in the gold layer to come up with aggregated data like sales analyis by product model , prouct categories , Territorial Sales , Sales by Seller Type
+      - Utilising Azure OpenAI to summarise the sales aggregated data in the gold layer. Utilising multiple calls to the LLM we compare previous months and years as well as analysing trends and anomalies. Key comparisons are stored as individual values in fact ai sales analysis table.
+      - Evaluating the results from the LLM calls in the previous step, we utilise the LLM again to extract insights and understand why sales performed as they did. Combining with sales data a product model category level, territories, customer type and social reviews analysis, the LLM was able to identify reasons. Key insights 
+        are stored as individual values in fact ai sales analysis table
+- Update Screenshot of Gold Schema
+ 
 
 ## Semantic Model
 
