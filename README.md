@@ -132,11 +132,27 @@ Steps to create and configure an ETL Pipeline for Companies and Customers
 ### Steps to configure mirroring in MS Fabric
 
 - Go to your Fabric Enabled Workspace and Click on New Item
+
+  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/03-Create_New_Item_In_Fabric.png)
+  
 - Search for Mirrored Azure SQL Database Option in New Item Window
+  
+  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/04-Select_Mirror_Azure_SQL_Database_Option.png)
+  
 - Once you click in the Mirrored Azure SQL Database, a new screen will pop up asking for the database connection to be setup. I have already setup the connection, so you are seeing one under one lake data hub
+  
+  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/05-Database_Connection_Window.png)
+  
 - On clicking Azure SQL Database, Connection window opens where you need to provide SQL Database Connection String Details and a connection name.
+  
+  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/06-Database_Connection_Settings_Window.png)
+  
 - Once connection is established, window will be opened with all the tables associated with your database
+  
+  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/07-Mirrored_Azure_SQL_Database_Screen.png)
+  
 - Choose the relevant tables which you want to be mirrored into Microsoft Fabric One Lake
+  
 - For our use case, we have mirrored below tables:
   - Production.Product
   - Production.ProductCategory
@@ -149,10 +165,17 @@ Steps to create and configure an ETL Pipeline for Companies and Customers
   - Sales.SalesTerritory
   - Sales.SpecialOffer
 - Once you click on connect, mirroring replication starts and it redirects to this window
-- When mirroring is successful, these three items are created in Fabric Workspace:
-  - Mirroring manages the replication of data into [OneLake](https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview) and conversion to Parquet, in an analytics-ready format. This enables downstream scenarios like data engineering, data science, and more.
-  - A SQL Analytics Endpoint
-  - A Default Semantic Model
+
+  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/08-Monitoring_Mirrored_Replication_Azure_SQL_Database.png)
+  
+- When mirroring is successful, these three items are created in Fabric Workspace
+
+  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/09-Created_Mirrored_Database_Screnshot.png)
+
+   - Mirroring manages the replication of data into One Lake and conversion to Parquet, in an analytics-ready format. This enables downstream 
+     scenarios like data engineering, data science, and more.
+   - A SQL Analytics Endpoint
+   - A Default Semantic Model
 
 ### Load Social Reviews Data into Microsoft Fabric using Shortcuts
 We have used Fabric Shortcuts feature to bring the data into Fabric Lakehouse without replicating data but using a pointer reference to the same. To establish a connection (or shortcut) between the Amazon S3 bucket and Fabric Lakehouse, the following configurations is required:
