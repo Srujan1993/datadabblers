@@ -193,13 +193,44 @@ Set up bucket policies to grant Fabric Lakehouse permission to access the S3 buc
 	- Ensure that the connection setup uses the access keys configured on the S3 bucket, and validate the connection by testing access to the sample social review data file
 	- Verify that the shortcut connection enables data reading and ingestion workflows within the Lakehouse.
 
-## Processing
+## Data Processing through Medallion Architecture
 
-### Bronze
+Now that we have successfully ingested data into the Microsoft Fabric One Lake, our next crucial step is to logically organize this data into distinct categories:
+- Raw data
+- Cleansed and transformed data
+- Aggregated data for comprehensive business analysis and insights
 
-### Silver
+This systematic organization is essential for efficient data management and utilization.
 
-### Gold
+## Lakehouse Medallion Architecture
+
+To achieve this structured approach, we have implemented the Lakehouse Medallion Architecture on our data. 
+
+The Medallion architecture is composed of three distinct layers or zones, each representing a different level of data refinement:
+
+1. **Bronze**: This initial layer contains the raw, unprocessed data as it is ingested from various sources.
+2. **Silver**: In this intermediate layer, data undergoes cleansing, validation, and transformation processes.
+3. **Gold**: The final layer houses fully refined, aggregated, and analysis-ready data.
+
+Each successive layer in this architecture indicates an increase in the quality and usability of the data stored in the lakehouse, with higher levels representing more refined and valuable information.
+
+## Implementation of Lakehouse Medallion Architecture
+
+To implement this architecture effectively, we have created custom schemas within our lakehouse for each layer:
+
+- Ops_Bronze: Houses the raw, unprocessed data of CRM,ERP and Social Media Reviews as Delta Lake Tables
+- Ops_Silver: Contains cleansed and transformed data as Delta Lake Tables 
+- Ops_Gold: Stores aggregated, analysis-ready data as Delta Lake Tables
+
+- The use of Delta Lake Tables ensures data integrity,reliability and optimised query performance as it transcends through the bronze, silver, and gold layers in our Medallion architecture implementation.
+
+- we have used Spark Notebooks within Microsoft Fabric for Data Processing within the Medallion Architecture. 
+
+### Bronze Layer in Medallion Architecture
+
+### Silver Layer in Medallion Architecture
+
+### Gold Layer in Medallion Architecture
 
 ## Semantic Model
 
