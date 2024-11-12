@@ -1,11 +1,17 @@
 
 # Project FabricIQ : Data Driven Intelligence with Microsoft Fabric and Azure Open AI
 
-About the project 
+With the increasing adoption of SaaS platforms, companies often rely on multiple systems to manage their daily operations. While this approach ensures the use of top-tier solutions for specific tasks, it makes obtaining a comprehensive view of the business challenging, as data is scattered across disconnected databases. Traditionally, consolidating this data into a central repository required skilled data engineers and architects to develop and maintain complex ETL pipelines. Microsoft Fabric simplifies this process for businesses of all sizes by offering a robust platform that can ingest and store data from various sources, transform it, and deliver it to users through dynamic reports and integrations. This can be accomplished using either No-Code or Pro-Code tools within Fabric.
 
-## Use Case
+Building on this foundation, the use of Large Language Models (LLMs) can significantly expedite the analysis of vast amounts of data, a task that would otherwise take analysts days or even weeks to complete. This enables faster data-driven decision-making, allowing businesses to quickly adapt to market changes and stay ahead of competitors.
 
-About the use case
+As a demonstration of these capabilities, we developed a PowerBI report designed for Sales and Marketing directors who require clear, actionable insights for their product portfolio. The report includes:
+
+- An AI-generated summary of sales data, comparing performance across different months and years while highlighting trends and anomalies.
+- AI-driven insights exploring the factors influencing sales.
+- AI-suggested actions identifying top priorities for improving sales based on the generated insights.
+
+This report provides all the necessary information to make informed decisions, improve sales, and gain a competitive advantage in rapidly changing markets.
 
 ## High Level Architecture
 
@@ -19,7 +25,7 @@ Video file to be uploaded
 
 * **Data Sources** : HubSpot CRM , ERP data on Azure SQL Database , Social Media Ratings and Reviews File from AWS S3
 * **Components/Features used within Microsoft Fabric** : Shortcuts , Mirroring , Lakehouse , Data Pipeline , Spark Notebooks , Power BI
-* **Azure Components** : Azure PaaS SQL Database , Azure Open AI Proxy Service
+* **Azure Components** : Azure PaaS SQL Database , Azure Open AI
 
 ## Prerequisites
 
