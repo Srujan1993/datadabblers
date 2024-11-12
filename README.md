@@ -232,7 +232,7 @@ To implement this architecture effectively, we have created custom schemas withi
 - This data is then converted into our bronze schema format and loaded as delta lake tables
 - Link to Notebook: [Lakehouse_Ingestion_Medallion_Bronze_Layer](https://github.com/Srujan1993/datadabblers/blob/2e53193f597bb89d5f8fe25527387ed9054d7c01/MicrosoftFabric/DataTransformation/Notebooks/Bronze/Lakehouse_Ingestion_Medallion_Bronze_Layer.ipynb)
 
-![image](https://github.com/Srujan1993/datadabblers/blob/2e53193f597bb89d5f8fe25527387ed9054d7c01/MicrosoftFabric/DataTransformation/assets/01_Lakehouse_Medallion_Bronze_Schema.png)
+![image](https://github.com/Srujan1993/datadabblers/blob/555478be204da46d782c3da4d9ddaeacf769720c/MicrosoftFabric/DataTransformation/assets/01_Lakehouse_Medallion_Bronze_Schema.png)
 
 ### Silver Layer in Medallion Architecture
 
