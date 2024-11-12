@@ -45,7 +45,27 @@ Video file to be uploaded
 # Detailed Project Setup in Microsoft Fabric
 
 - Create a Fabric enabled workspace in [app.powerbi.com](http://app.powerbi.com)
+  
+![image](https://github.com/Srujan1993/datadabblers/blob/d1adc4b2b13a547ac7f770dc4ecfe131ab3dfe2a/MicrosoftFabric/Assets/01-Fabric_Home_Page.png)
 
+## Creation of Lakehouse in Microsoft Fabric
+
+- We will be bringing the data into Lakehouse to perform insights using Medallion Architecture.
+
+- A lakehouse when created will have a semantic model and SQL analytics endpoint. We have named our Lakehouse as AdventureWorks_Lakehouse
+
+- Click on New Fabric Item option
+  
+![image](https://github.com/Srujan1993/datadabblers/blob/d1adc4b2b13a547ac7f770dc4ecfe131ab3dfe2a/MicrosoftFabric/Assets/02-Fabric_New_Item.png)
+
+- Search for Fabric Lakehouse Option and click on it
+  
+![image](https://github.com/Srujan1993/datadabblers/blob/d1adc4b2b13a547ac7f770dc4ecfe131ab3dfe2a/MicrosoftFabric/Assets/03-Create_Fabric_Lakehouse_Item.png)
+
+- A new lakehouse creation window opens , provide details accordingly
+
+![image](https://github.com/Srujan1993/datadabblers/blob/d1adc4b2b13a547ac7f770dc4ecfe131ab3dfe2a/MicrosoftFabric/Assets/04_Fabric_Lakehouse_Creation_Window.png)
+  
 - Create a Fabric Lakehouse within the Fabric Workspace. We will be bringing the data into Lakehouse to perform insights using Medallion Architecture. A lakehouse when created will have a semantic model and SQL
 analytics endpoint. We have named our Lakehouse as AdventureWorks_Lakehouse
 
