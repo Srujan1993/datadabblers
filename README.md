@@ -132,11 +132,27 @@ Steps to create and configure an ETL Pipeline for Companies and Customers
 ### Steps to configure mirroring in MS Fabric
 
 - Go to your Fabric Enabled Workspace and Click on New Item
+
+  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/03-Create_New_Item_In_Fabric.png)
+  
 - Search for Mirrored Azure SQL Database Option in New Item Window
+  
+  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/04-Select_Mirror_Azure_SQL_Database_Option.png)
+  
 - Once you click in the Mirrored Azure SQL Database, a new screen will pop up asking for the database connection to be setup. I have already setup the connection, so you are seeing one under one lake data hub
+  
+  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/05-Database_Connection_Window.png)
+  
 - On clicking Azure SQL Database, Connection window opens where you need to provide SQL Database Connection String Details and a connection name.
+  
+  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/06-Database_Connection_Settings_Window.png)
+  
 - Once connection is established, window will be opened with all the tables associated with your database
+  
+  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/07-Mirrored_Azure_SQL_Database_Screen.png)
+  
 - Choose the relevant tables which you want to be mirrored into Microsoft Fabric One Lake
+  
 - For our use case, we have mirrored below tables:
   - Production.Product
   - Production.ProductCategory
@@ -149,10 +165,17 @@ Steps to create and configure an ETL Pipeline for Companies and Customers
   - Sales.SalesTerritory
   - Sales.SpecialOffer
 - Once you click on connect, mirroring replication starts and it redirects to this window
-- When mirroring is successful, these three items are created in Fabric Workspace:
-  - Mirroring manages the replication of data into [OneLake](https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview) and conversion to Parquet, in an analytics-ready format. This enables downstream scenarios like data engineering, data science, and more.
-  - A SQL Analytics Endpoint
-  - A Default Semantic Model
+
+  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/08-Monitoring_Mirrored_Replication_Azure_SQL_Database.png)
+  
+- When mirroring is successful, these three items are created in Fabric Workspace
+
+  ![image](https://github.com/Srujan1993/datadabblers/blob/2e6adfac01d2abaa3480316e910cced729533d58/MicrosoftFabric/DataIngestion/Mirroring/assets/09-Created_Mirrored_Database_Screnshot.png)
+
+   - Mirroring manages the replication of data into One Lake and conversion to Parquet, in an analytics-ready format. This enables downstream 
+     scenarios like data engineering, data science, and more.
+   - A SQL Analytics Endpoint
+   - A Default Semantic Model
 
 ### Load Social Reviews Data into Microsoft Fabric using Shortcuts
 We have used Fabric Shortcuts feature to bring the data into Fabric Lakehouse without replicating data but using a pointer reference to the same. To establish a connection (or shortcut) between the Amazon S3 bucket and Fabric Lakehouse, the following configurations is required:
@@ -170,13 +193,44 @@ Set up bucket policies to grant Fabric Lakehouse permission to access the S3 buc
 	- Ensure that the connection setup uses the access keys configured on the S3 bucket, and validate the connection by testing access to the sample social review data file
 	- Verify that the shortcut connection enables data reading and ingestion workflows within the Lakehouse.
 
-## Processing
+## Data Processing through Medallion Architecture
 
-### Bronze
+Now that we have successfully ingested data into the Microsoft Fabric One Lake, our next crucial step is to logically organize this data into distinct categories:
+- Raw data
+- Cleansed and transformed data
+- Aggregated data for comprehensive business analysis and insights
 
-### Silver
+This systematic organization is essential for efficient data management and utilization.
 
-### Gold
+## Lakehouse Medallion Architecture
+
+To achieve this structured approach, we have implemented the Lakehouse Medallion Architecture on our data. 
+
+The Medallion architecture is composed of three distinct layers or zones, each representing a different level of data refinement:
+
+1. **Bronze**: This initial layer contains the raw, unprocessed data as it is ingested from various sources.
+2. **Silver**: In this intermediate layer, data undergoes cleansing, validation, and transformation processes.
+3. **Gold**: The final layer houses fully refined, aggregated, and analysis-ready data.
+
+Each successive layer in this architecture indicates an increase in the quality and usability of the data stored in the lakehouse, with higher levels representing more refined and valuable information.
+
+## Implementation of Lakehouse Medallion Architecture
+
+To implement this architecture effectively, we have created custom schemas within our lakehouse for each layer:
+
+- Ops_Bronze: Houses the raw, unprocessed data of CRM,ERP and Social Media Reviews as Delta Lake Tables
+- Ops_Silver: Contains cleansed and transformed data as Delta Lake Tables 
+- Ops_Gold: Stores aggregated, analysis-ready data as Delta Lake Tables
+
+- The use of Delta Lake Tables ensures data integrity,reliability and optimised query performance as it transcends through the bronze, silver, and gold layers in our Medallion architecture implementation.
+
+- we have used Spark Notebooks within Microsoft Fabric for Data Processing within the Medallion Architecture. 
+
+### Bronze Layer in Medallion Architecture
+
+### Silver Layer in Medallion Architecture
+
+### Gold Layer in Medallion Architecture
 
 ## Semantic Model
 
