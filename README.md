@@ -15,7 +15,7 @@ This report provides all the necessary information to make informed decisions, i
 
 ## High Level Architecture
 
-![image](https://github.com/user-attachments/assets/cbd8106f-1ae6-4570-b9f7-fa9fd6ed0659)
+![image](https://github.com/Srujan1993/datadabblers/blob/e2c8048faf010a1a19c05d84091546276946747c/MicrosoftFabric/Architecture/HighLevelArchitectureDiagram_v1.drawio.png)
 
 ## Project Demonstration using Video
 
