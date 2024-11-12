@@ -19,7 +19,7 @@ This report provides all the necessary information to make informed decisions, i
 
 ## Project Demonstration using Video
 
-Video file to be uploaded
+[![Project Demo](https://img.youtube.com/vi/kbGwXpLM0Js/0.jpg)](https://www.youtube.com/watch?v=kbGwXpLM0Js)
 
 ## Components used in the Project
 
